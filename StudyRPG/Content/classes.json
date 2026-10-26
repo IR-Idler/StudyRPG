@@ -1,0 +1,643 @@
+{
+  "classes": [
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "spriteId": "warrior",
+      "maxHP": 30,
+      "resource": null,
+      "startingSkills": [
+        "warrior_sword",
+        "warrior_shield_wall"
+      ],
+      "skills": [
+        {
+          "id": "warrior_sword",
+          "vfx": "blade",
+          "name": "Sword",
+          "icon": "burst.fill",
+          "art": "sword_slash",
+          "element": "steel",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "enemy",
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damage",
+                "dice": {
+                  "count": 1,
+                  "flat": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "warrior_shield_wall",
+          "name": "Shield Wall",
+          "icon": "shield.lefthalf.filled",
+          "art": "shield_wall",
+          "element": "guard",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "party",
+          "requiresInactive": "block",
+          "effects": [
+            {
+              "type": "block",
+              "amount": 2,
+              "rounds": 2
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "block",
+                "amount": 3,
+                "rounds": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "warrior_heavy_strike",
+          "name": "Heavy Strike",
+          "icon": "hammer.fill",
+          "art": "heavy_strike",
+          "element": "steel",
+          "cost": null,
+          "actionPoints": 2,
+          "target": "enemy",
+          "vfx": "blade",
+          "cooldown": 2,
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 2,
+                "flat": 0
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damage",
+                "dice": {
+                  "count": 3,
+                  "flat": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "warrior_cleave",
+          "name": "Cleave",
+          "icon": "wind",
+          "art": "cleave",
+          "element": "steel",
+          "cost": null,
+          "actionPoints": 2,
+          "target": "allEnemies",
+          "vfx": "blade",
+          "cooldown": 2,
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            }
+          ],
+          "upgrade": {
+            "cooldown": 1
+          }
+        },
+        {
+          "id": "warrior_shield_bash",
+          "name": "Shield Bash",
+          "icon": "shield.righthalf.filled",
+          "art": "shield_bash",
+          "element": "guard",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "enemy",
+          "vfx": "blade",
+          "cooldown": 2,
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            },
+            {
+              "type": "stun",
+              "amount": 1
+            }
+          ],
+          "upgrade": {
+            "cooldown": 1
+          }
+        },
+        {
+          "id": "warrior_sunder",
+          "name": "Sunder",
+          "icon": "bolt.shield.fill",
+          "art": "sunder",
+          "element": "steel",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "enemy",
+          "vfx": "blade",
+          "cooldown": 2,
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            },
+            {
+              "type": "vulnerable",
+              "amount": 2,
+              "rounds": 2
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damage",
+                "dice": {
+                  "count": 1,
+                  "flat": 0
+                }
+              },
+              {
+                "type": "vulnerable",
+                "amount": 3,
+                "rounds": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "warrior_battle_cry",
+          "name": "Battle Cry",
+          "icon": "megaphone.fill",
+          "art": "battle_cry",
+          "element": "war",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "party",
+          "cooldown": 3,
+          "effects": [
+            {
+              "type": "damageBuff",
+              "amount": 2,
+              "rounds": 2
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damageBuff",
+                "amount": 3,
+                "rounds": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "warrior_intimidate",
+          "name": "Intimidate",
+          "icon": "exclamationmark.triangle.fill",
+          "art": "intimidate",
+          "element": "shadow",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "allEnemies",
+          "cooldown": 3,
+          "effects": [
+            {
+              "type": "weaken",
+              "amount": 2,
+              "rounds": 2
+            }
+          ],
+          "upgrade": {
+            "cooldown": 2
+          }
+        },
+        {
+          "id": "warrior_second_wind",
+          "name": "Second Wind",
+          "icon": "heart.circle.fill",
+          "art": "second_wind",
+          "element": "nature",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "self",
+          "cooldown": 3,
+          "effects": [
+            {
+              "type": "heal",
+              "dice": {
+                "count": 1,
+                "flat": 3
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "heal",
+                "dice": {
+                  "count": 2,
+                  "flat": 3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "warrior_ground_slam",
+          "name": "Ground Slam",
+          "icon": "waveform.path",
+          "art": "ground_slam",
+          "element": "earth",
+          "cost": null,
+          "actionPoints": 2,
+          "target": "allEnemies",
+          "cooldown": 4,
+          "effects": [
+            {
+              "type": "stun",
+              "amount": 1
+            }
+          ],
+          "upgrade": {
+            "cooldown": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "spriteId": "wizard",
+      "maxHP": 30,
+      "resource": {
+        "name": "Mana",
+        "max": 3,
+        "start": 1
+      },
+      "startingSkills": [
+        "wizard_bolt",
+        "wizard_fireball",
+        "wizard_heal"
+      ],
+      "skills": [
+        {
+          "id": "wizard_bolt",
+          "vfx": "missile",
+          "name": "Bolt",
+          "icon": "sparkles",
+          "art": "arcane_bolt",
+          "element": "arcane",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "enemy",
+          "effects": [
+            {
+              "type": "damage",
+              "damageType": "magic",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            },
+            {
+              "type": "resource",
+              "amount": 1
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damage",
+                "damageType": "magic",
+                "dice": {
+                  "count": 1,
+                  "flat": 2
+                }
+              },
+              {
+                "type": "resource",
+                "amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_fireball",
+          "vfx": "fireball",
+          "name": "Fireball",
+          "icon": "flame.fill",
+          "art": "fireball",
+          "element": "fire",
+          "cost": 2,
+          "actionPoints": 2,
+          "target": "enemy",
+          "effects": [
+            {
+              "type": "damage",
+              "damageType": "magic",
+              "dice": {
+                "count": 2,
+                "flat": 0
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damage",
+                "damageType": "magic",
+                "dice": {
+                  "count": 3,
+                  "flat": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_heal",
+          "name": "Heal",
+          "icon": "leaf.fill",
+          "art": "heal",
+          "element": "nature",
+          "cost": 2,
+          "actionPoints": 1,
+          "target": "party",
+          "effects": [
+            {
+              "type": "heal",
+              "dice": {
+                "count": 1,
+                "flat": 2
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "heal",
+                "dice": {
+                  "count": 2,
+                  "flat": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_chain_lightning",
+          "name": "Chain Lightning",
+          "icon": "bolt.horizontal.fill",
+          "art": "chain_lightning",
+          "element": "lightning",
+          "cost": 2,
+          "actionPoints": 2,
+          "target": "allEnemies",
+          "vfx": "missile",
+          "effects": [
+            {
+              "type": "damage",
+              "damageType": "magic",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            }
+          ],
+          "upgrade": {
+            "cost": 1
+          }
+        },
+        {
+          "id": "wizard_ice_lance",
+          "name": "Ice Lance",
+          "icon": "snowflake.circle.fill",
+          "art": "ice_lance",
+          "element": "frost",
+          "cost": 2,
+          "actionPoints": 1,
+          "target": "enemy",
+          "vfx": "missile",
+          "effects": [
+            {
+              "type": "damage",
+              "damageType": "magic",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            },
+            {
+              "type": "stun",
+              "amount": 1
+            }
+          ],
+          "upgrade": {
+            "cost": 1
+          }
+        },
+        {
+          "id": "wizard_frost_nova",
+          "name": "Frost Nova",
+          "icon": "snowflake",
+          "art": "frost_nova",
+          "element": "frost",
+          "cost": 2,
+          "actionPoints": 2,
+          "target": "allEnemies",
+          "effects": [
+            {
+              "type": "stun",
+              "amount": 1
+            }
+          ],
+          "upgrade": {
+            "actionPoints": 1
+          }
+        },
+        {
+          "id": "wizard_mend",
+          "name": "Mend",
+          "icon": "bandage.fill",
+          "art": "mend",
+          "element": "nature",
+          "cost": 1,
+          "actionPoints": 1,
+          "target": "ally",
+          "effects": [
+            {
+              "type": "heal",
+              "dice": {
+                "count": 2,
+                "flat": 1
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "heal",
+                "dice": {
+                  "count": 3,
+                  "flat": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_empower",
+          "name": "Empower",
+          "icon": "wand.and.stars",
+          "art": "empower",
+          "element": "arcane",
+          "cost": 1,
+          "actionPoints": 1,
+          "target": "ally",
+          "effects": [
+            {
+              "type": "damageBuff",
+              "amount": 3,
+              "rounds": 2
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damageBuff",
+                "amount": 4,
+                "rounds": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_hex",
+          "name": "Hex",
+          "icon": "moon.stars.fill",
+          "art": "hex",
+          "element": "shadow",
+          "cost": 1,
+          "actionPoints": 1,
+          "target": "enemy",
+          "effects": [
+            {
+              "type": "weaken",
+              "amount": 2,
+              "rounds": 2
+            },
+            {
+              "type": "vulnerable",
+              "amount": 1,
+              "rounds": 2
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "weaken",
+                "amount": 3,
+                "rounds": 2
+              },
+              {
+                "type": "vulnerable",
+                "amount": 2,
+                "rounds": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_meteor",
+          "name": "Meteor",
+          "icon": "flame.circle.fill",
+          "art": "meteor",
+          "element": "fire",
+          "cost": 3,
+          "actionPoints": 2,
+          "target": "enemy",
+          "vfx": "fireball",
+          "effects": [
+            {
+              "type": "damage",
+              "damageType": "magic",
+              "dice": {
+                "count": 3,
+                "flat": 0
+              }
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "damage",
+                "damageType": "magic",
+                "dice": {
+                  "count": 4,
+                  "flat": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "wizard_mana_surge",
+          "name": "Mana Surge",
+          "icon": "rays",
+          "art": "mana_surge",
+          "element": "mana",
+          "cost": null,
+          "actionPoints": 1,
+          "target": "self",
+          "cooldown": 3,
+          "effects": [
+            {
+              "type": "resource",
+              "amount": 2
+            }
+          ],
+          "upgrade": {
+            "effects": [
+              {
+                "type": "resource",
+                "amount": 3
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "startingGold": 20,
+  "maxPotionsCarried": 3,
+  "fullBagGoldConversion": 5,
+  "rewards": {
+    "bonusPotionChance": 0.5,
+    "relicFallbackGold": 20,
+    "fightGearChance": 0.12,
+    "eliteGearChance": 0.6
+  },
+  "shop": {
+    "haggleDiscount": 0.25,
+    "haggleSurcharge": 0.25,
+    "relicsMin": 1,
+    "relicsMax": 2,
+    "gearMin": 1,
+    "gearMax": 2,
+    "skillScrollCost": 40
+  },
+  "campfire": {
+    "restHeal": 12,
+    "trainDamageBonus": 1
+  },
+  "cardWeight": {
+    "noHistory": 0.9,
+    "base": 0.35,
+    "accuracyExponent": 1.5,
+    "accuracyScale": 1.65
+  },
+  "flashcards": {
+    "noneOfTheseChance": 0.2,
+    "minDeckSize": 4
+  },
+  "map": {
+    "rowCount": 8,
+    "minLanes": 2,
+    "maxLanes": 3,
+    "pathCount": 3,
+    "nodeWeights": {
+      "fight": 0.55,
+      "elite": 0.15,
+      "event": 0.2,
+      "shop": 0.08,
+      "campfire": 0.07
+    },
+    "eliteMinProgress": 0.33,
+    "restMinProgress": 0.25,
+    "campfireBeforeBoss": true
+  },
+  "skills": {
+    "maxEquipped": 4,
+    "offerCount": 3
+  },
+  "combat": {
+    "wrongAnswerCounterattacks": 1,
+    "wrongAnswerMaxDice": 1,
+    "actionPointsPerTurn": 2
+  },
+  "leveling": {
+    "levels": [
+      {
+        "xp": 0
+      },
+      {
+        "xp": 15
+      },
+      {
+        "xp": 32
+      },
+      {
+        "xp": 50
+      },
+      {
+        "xp": 70
+      },
+      {
+        "xp": 95
+      },
+      {
+        "xp": 125
+      },
+      {
+        "xp": 160
+      },
+      {
+        "xp": 200
+      },
+      {
+        "xp": 245
+      },
+      {
+        "xp": 295
+      }
+    ]
+  },
+  "dice": {
+    "startingFaces": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "maxFaceValue": 9,
+    "offerCount": 3,
+    "stickers": [
+      {
+        "id": "crit",
+        "name": "Crit",
+        "symbol": "star.fill",
+        "type": "crit",
+        "amount": 1
+      },
+      {
+        "id": "guard",
+        "name": "Guard",
+        "symbol": "shield.fill",
+        "type": "block",
+        "amount": 2
+      },
+      {
+        "id": "spark",
+        "name": "Spark",
+        "symbol": "diamond.fill",
+        "type": "resource",
+        "amount": 1
+      },
+      {
+        "id": "vigor",
+        "name": "Vigor",
+        "symbol": "cross.fill",
+        "type": "heal",
+        "amount": 2
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "raise",
+        "type": "raiseFace",
+        "amount": 2
+      },
+      {
+        "id": "crit",
+        "type": "sticker",
+        "sticker": "crit"
+      },
+      {
+        "id": "guard",
+        "type": "sticker",
+        "sticker": "guard"
+      },
+      {
+        "id": "spark",
+        "type": "sticker",
+        "sticker": "spark"
+      },
+      {
+        "id": "vigor",
+        "type": "sticker",
+        "sticker": "vigor"
+      }
+    ]
+  }
+}

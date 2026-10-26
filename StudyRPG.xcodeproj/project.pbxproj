@@ -6,14 +6,178 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CC3D78EB3085147700999206 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78EA3085147700999206 /* Theme.swift */; };
+		CC3D78ED3085147B00999206 /* ArtCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78EC3085147B00999206 /* ArtCache.swift */; };
+		CC3D78EF3085147C00999206 /* ProceduralSpriteArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78EE3085147C00999206 /* ProceduralSpriteArt.swift */; };
+		CC3D78F13085147D00999206 /* SceneBackdrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78F03085147D00999206 /* SceneBackdrops.swift */; };
+		CC3D78F33085147D00999206 /* DeckViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78F23085147D00999206 /* DeckViews.swift */; };
+		CC3D78F73085147F00999206 /* BattleStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78F63085147F00999206 /* BattleStage.swift */; };
+		CC3D78F93085147F00999206 /* CombatVFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78F83085147F00999206 /* CombatVFX.swift */; };
+		CC3D78FB3085148000999206 /* FlashcardQuizOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78FA3085148000999206 /* FlashcardQuizOverlay.swift */; };
+		CC3D78FD3085148100999206 /* CombatConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78FC3085148100999206 /* CombatConsole.swift */; };
+		CC3D78FF3085148200999206 /* FightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D78FE3085148200999206 /* FightView.swift */; };
+		CC3D79013085148200999206 /* CharacterInfoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79003085148200999206 /* CharacterInfoSheet.swift */; };
+		CC3D79033085148300999206 /* RunSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79023085148300999206 /* RunSymbols.swift */; };
+		CC3D79053085148400999206 /* PartySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79043085148400999206 /* PartySheet.swift */; };
+		CC3D79073085148400999206 /* RunMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79063085148400999206 /* RunMapView.swift */; };
+		CC3D79093085148500999206 /* ScenePlaceholders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79083085148500999206 /* ScenePlaceholders.swift */; };
+		CC3D790B3085148600999206 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D790A3085148600999206 /* ShopView.swift */; };
+		CC3D790D3085148600999206 /* CampfireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D790C3085148600999206 /* CampfireView.swift */; };
+		CC3D790F3085148700999206 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D790E3085148700999206 /* EventView.swift */; };
+		CC3D79113085148800999206 /* SkillRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79103085148800999206 /* SkillRewardView.swift */; };
+		CC3D79133085148800999206 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79123085148800999206 /* SettingsView.swift */; };
+		CC3D79153085148900999206 /* RunEndViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79143085148900999206 /* RunEndViews.swift */; };
+		CC3D79173085148A00999206 /* RunSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79163085148A00999206 /* RunSetupView.swift */; };
+		CC3D79193085148B00999206 /* TestFightSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79183085148B00999206 /* TestFightSetupView.swift */; };
+		CC3D791B3085148B00999206 /* FlashcardServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D791A3085148B00999206 /* FlashcardServices.swift */; };
+		CC3D791D3085148C00999206 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D791C3085148C00999206 /* GameSettings.swift */; };
+		CC3D791F3085148D00999206 /* DeckStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D791E3085148D00999206 /* DeckStore.swift */; };
+		CC3D79213085148D00999206 /* MapGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79203085148D00999206 /* MapGenerator.swift */; };
+		CC3D79233085148E00999206 /* FlashcardSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79223085148E00999206 /* FlashcardSession.swift */; };
+		CC3D79253085148F00999206 /* RunStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79243085148F00999206 /* RunStores.swift */; };
+		CC3D79273085148F00999206 /* RunState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79263085148F00999206 /* RunState.swift */; };
+		CC3D79293085149000999206 /* CombatEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D79283085149000999206 /* CombatEngine.swift */; };
+		CC3D792B3085149100999206 /* FlashcardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D792A3085149100999206 /* FlashcardModels.swift */; };
+		CC3D792D3085149200999206 /* CombatState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D792C3085149200999206 /* CombatState.swift */; };
+		CC3D792F3085149200999206 /* RunModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D792E3085149200999206 /* RunModels.swift */; };
+		CC5835BC308FB2C900AADD62 /* DiceTrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5835BB308FB2C900AADD62 /* DiceTrayView.swift */; };
+		CC5835BE308FB78C00AADD62 /* HeroDie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5835BD308FB78C00AADD62 /* HeroDie.swift */; };
+		CC5835C0308FB81E00AADD62 /* HeroDieViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5835BF308FB81E00AADD62 /* HeroDieViews.swift */; };
+		CC5835C4308FBB5F00AADD62 /* SkillUpgradeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5835C3308FBB5F00AADD62 /* SkillUpgradeViews.swift */; };
+		CC7DA215308F64FC00DDF173 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DA214308F64FC00DDF173 /* Localization.swift */; };
+		CC7DA217308F667100DDF173 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CC7DA216308F667100DDF173 /* Localizable.xcstrings */; };
+		CC7DA219308F667100DDF173 /* Content.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CC7DA218308F667100DDF173 /* Content.xcstrings */; };
+		CC8839CC3088F57A0066C039 /* starter_decks.json in Resources */ = {isa = PBXBuildFile; fileRef = CC8839CB3088F57A0066C039 /* starter_decks.json */; };
+		CC8839CE3088F6EE0066C039 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8839CD3088F6EE0066C039 /* SoundEngine.swift */; };
+		CC8839D23088FD5C0066C039 /* ScenePreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8839D13088FD5C0066C039 /* ScenePreviews.swift */; };
+		CCD35D0B3085DAF40070E355 /* StageFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD35D0A3085DAF40070E355 /* StageFrame.swift */; };
+		CCD75D88308A2DA600F012E9 /* HoloMapArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD75D87308A2DA600F012E9 /* HoloMapArt.swift */; };
+		CCE8F1783089C0CF00BEDA7A /* ItemArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F1773089C0CF00BEDA7A /* ItemArt.swift */; };
+		CCE8F17A3089C1AF00BEDA7A /* SkillArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F1793089C1AF00BEDA7A /* SkillArt.swift */; };
+		CCE8F17C3089C33900BEDA7A /* EventArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F17B3089C33900BEDA7A /* EventArt.swift */; };
+		CCE8F17E3089C4EC00BEDA7A /* DiscoveryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F17D3089C4EC00BEDA7A /* DiscoveryStore.swift */; };
+		CCE8F1803089C54100BEDA7A /* CodexViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F17F3089C54100BEDA7A /* CodexViews.swift */; };
+		CCE8F1843089C77D00BEDA7A /* SkillMotifs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F1833089C77D00BEDA7A /* SkillMotifs.swift */; };
+		CCE8F1863089C96B00BEDA7A /* EnemyBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F1853089C96B00BEDA7A /* EnemyBrain.swift */; };
+		CCE8F1883089C9F200BEDA7A /* EnemySkillText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8F1873089C9F200BEDA7A /* EnemySkillText.swift */; };
+		CCEA3FB2308F17F9007AF847 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA3FB1308F17F9007AF847 /* Platform.swift */; };
+		CCEA3FB6308F29CE007AF847 /* GameMenuCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA3FB5308F29CE007AF847 /* GameMenuCommands.swift */; };
+		CCEA3FB8308F3ADA007AF847 /* ParchmentMapArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA3FB7308F3ADA007AF847 /* ParchmentMapArt.swift */; };
+		CCF17D18308385D300E6B90A /* relics.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D0A308385D300E6B90A /* relics.json */; };
+		CCF17D1B308385D300E6B90A /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D09308385D300E6B90A /* items.json */; };
+		CCF17D1F308385D300E6B90A /* balance.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D05308385D300E6B90A /* balance.json */; };
+		CCF17D22308385D300E6B90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D10308385D300E6B90A /* Assets.xcassets */; };
+		CCF17D25308385D300E6B90A /* enemies.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D08308385D300E6B90A /* enemies.json */; };
+		CCF17D26308385D300E6B90A /* classes.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D06308385D300E6B90A /* classes.json */; };
+		CCF17D28308385D300E6B90A /* encounters.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF17D07308385D300E6B90A /* encounters.json */; };
+		CCF17D29308385D300E6B90A /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF17D0E308385D300E6B90A /* ContentLoader.swift */; };
+		CCF17D2A308385D300E6B90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF17D11308385D300E6B90A /* ContentView.swift */; };
+		CCF17D2B308385D300E6B90A /* GameContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF17D0C308385D300E6B90A /* GameContent.swift */; };
+		CCF17D2C308385D300E6B90A /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF17D12308385D300E6B90A /* MyApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4C69803085173400A8394A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = StudyRPG;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* StudyRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D78EA3085147700999206 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CC3D78EC3085147B00999206 /* ArtCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCache.swift; sourceTree = "<group>"; };
+		CC3D78EE3085147C00999206 /* ProceduralSpriteArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduralSpriteArt.swift; sourceTree = "<group>"; };
+		CC3D78F03085147D00999206 /* SceneBackdrops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBackdrops.swift; sourceTree = "<group>"; };
+		CC3D78F23085147D00999206 /* DeckViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViews.swift; sourceTree = "<group>"; };
+		CC3D78F63085147F00999206 /* BattleStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleStage.swift; sourceTree = "<group>"; };
+		CC3D78F83085147F00999206 /* CombatVFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatVFX.swift; sourceTree = "<group>"; };
+		CC3D78FA3085148000999206 /* FlashcardQuizOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardQuizOverlay.swift; sourceTree = "<group>"; };
+		CC3D78FC3085148100999206 /* CombatConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatConsole.swift; sourceTree = "<group>"; };
+		CC3D78FE3085148200999206 /* FightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightView.swift; sourceTree = "<group>"; };
+		CC3D79003085148200999206 /* CharacterInfoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoSheet.swift; sourceTree = "<group>"; };
+		CC3D79023085148300999206 /* RunSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSymbols.swift; sourceTree = "<group>"; };
+		CC3D79043085148400999206 /* PartySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartySheet.swift; sourceTree = "<group>"; };
+		CC3D79063085148400999206 /* RunMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMapView.swift; sourceTree = "<group>"; };
+		CC3D79083085148500999206 /* ScenePlaceholders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePlaceholders.swift; sourceTree = "<group>"; };
+		CC3D790A3085148600999206 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		CC3D790C3085148600999206 /* CampfireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampfireView.swift; sourceTree = "<group>"; };
+		CC3D790E3085148700999206 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		CC3D79103085148800999206 /* SkillRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillRewardView.swift; sourceTree = "<group>"; };
+		CC3D79123085148800999206 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CC3D79143085148900999206 /* RunEndViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunEndViews.swift; sourceTree = "<group>"; };
+		CC3D79163085148A00999206 /* RunSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSetupView.swift; sourceTree = "<group>"; };
+		CC3D79183085148B00999206 /* TestFightSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFightSetupView.swift; sourceTree = "<group>"; };
+		CC3D791A3085148B00999206 /* FlashcardServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardServices.swift; sourceTree = "<group>"; };
+		CC3D791C3085148C00999206 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		CC3D791E3085148D00999206 /* DeckStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckStore.swift; sourceTree = "<group>"; };
+		CC3D79203085148D00999206 /* MapGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGenerator.swift; sourceTree = "<group>"; };
+		CC3D79223085148E00999206 /* FlashcardSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardSession.swift; sourceTree = "<group>"; };
+		CC3D79243085148F00999206 /* RunStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunStores.swift; sourceTree = "<group>"; };
+		CC3D79263085148F00999206 /* RunState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunState.swift; sourceTree = "<group>"; };
+		CC3D79283085149000999206 /* CombatEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatEngine.swift; sourceTree = "<group>"; };
+		CC3D792A3085149100999206 /* FlashcardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardModels.swift; sourceTree = "<group>"; };
+		CC3D792C3085149200999206 /* CombatState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatState.swift; sourceTree = "<group>"; };
+		CC3D792E3085149200999206 /* RunModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunModels.swift; sourceTree = "<group>"; };
+		CC4C697C3085173400A8394A /* StudyRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5835BB308FB2C900AADD62 /* DiceTrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTrayView.swift; sourceTree = "<group>"; };
+		CC5835BD308FB78C00AADD62 /* HeroDie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDie.swift; sourceTree = "<group>"; };
+		CC5835BF308FB81E00AADD62 /* HeroDieViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDieViews.swift; sourceTree = "<group>"; };
+		CC5835C3308FBB5F00AADD62 /* SkillUpgradeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpgradeViews.swift; sourceTree = "<group>"; };
+		CC7DA214308F64FC00DDF173 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		CC7DA216308F667100DDF173 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CC7DA218308F667100DDF173 /* Content.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Content.xcstrings; sourceTree = "<group>"; };
+		CC8839CB3088F57A0066C039 /* starter_decks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = starter_decks.json; sourceTree = "<group>"; };
+		CC8839CD3088F6EE0066C039 /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
+		CC8839D13088FD5C0066C039 /* ScenePreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePreviews.swift; sourceTree = "<group>"; };
+		CCD35D0A3085DAF40070E355 /* StageFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageFrame.swift; sourceTree = "<group>"; };
+		CCD75D87308A2DA600F012E9 /* HoloMapArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoloMapArt.swift; sourceTree = "<group>"; };
+		CCE8F1773089C0CF00BEDA7A /* ItemArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemArt.swift; sourceTree = "<group>"; };
+		CCE8F1793089C1AF00BEDA7A /* SkillArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillArt.swift; sourceTree = "<group>"; };
+		CCE8F17B3089C33900BEDA7A /* EventArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventArt.swift; sourceTree = "<group>"; };
+		CCE8F17D3089C4EC00BEDA7A /* DiscoveryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryStore.swift; sourceTree = "<group>"; };
+		CCE8F17F3089C54100BEDA7A /* CodexViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexViews.swift; sourceTree = "<group>"; };
+		CCE8F1833089C77D00BEDA7A /* SkillMotifs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMotifs.swift; sourceTree = "<group>"; };
+		CCE8F1853089C96B00BEDA7A /* EnemyBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyBrain.swift; sourceTree = "<group>"; };
+		CCE8F1873089C9F200BEDA7A /* EnemySkillText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemySkillText.swift; sourceTree = "<group>"; };
+		CCEA3FB1308F17F9007AF847 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		CCEA3FB5308F29CE007AF847 /* GameMenuCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuCommands.swift; sourceTree = "<group>"; };
+		CCEA3FB7308F3ADA007AF847 /* ParchmentMapArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParchmentMapArt.swift; sourceTree = "<group>"; };
+		CCF17CF6308385D300E6B90A /* agents.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = agents.md; sourceTree = "<group>"; };
+		CCF17CF7308385D300E6B90A /* game.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = game.md; sourceTree = "<group>"; };
+		CCF17CF8308385D300E6B90A /* goblin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblin.png; sourceTree = "<group>"; };
+		CCF17CF9308385D300E6B90A /* knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight.png; sourceTree = "<group>"; };
+		CCF17CFA308385D300E6B90A /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
+		CCF17CFB308385D300E6B90A /* mountain 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mountain 1.png"; sourceTree = "<group>"; };
+		CCF17CFC308385D300E6B90A /* mountain 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mountain 2.png"; sourceTree = "<group>"; };
+		CCF17CFD308385D300E6B90A /* mountain 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mountain 3.png"; sourceTree = "<group>"; };
+		CCF17CFE308385D300E6B90A /* skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton.png; sourceTree = "<group>"; };
+		CCF17CFF308385D300E6B90A /* skeleton 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skeleton 1.png"; sourceTree = "<group>"; };
+		CCF17D00308385D300E6B90A /* tree_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree_1.png; sourceTree = "<group>"; };
+		CCF17D01308385D300E6B90A /* tree_1 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tree_1 1.png"; sourceTree = "<group>"; };
+		CCF17D02308385D300E6B90A /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
+		CCF17D03308385D300E6B90A /* wolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wolf.png; sourceTree = "<group>"; };
+		CCF17D05308385D300E6B90A /* balance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = balance.json; sourceTree = "<group>"; };
+		CCF17D06308385D300E6B90A /* classes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = classes.json; sourceTree = "<group>"; };
+		CCF17D07308385D300E6B90A /* encounters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = encounters.json; sourceTree = "<group>"; };
+		CCF17D08308385D300E6B90A /* enemies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = enemies.json; sourceTree = "<group>"; };
+		CCF17D09308385D300E6B90A /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		CCF17D0A308385D300E6B90A /* relics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = relics.json; sourceTree = "<group>"; };
+		CCF17D0C308385D300E6B90A /* GameContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContent.swift; sourceTree = "<group>"; };
+		CCF17D0E308385D300E6B90A /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
+		CCF17D10308385D300E6B90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF17D11308385D300E6B90A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCF17D12308385D300E6B90A /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* StudyRPG */ = {
+		CC4C697D3085173400A8394A /* StudyRPGTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudyRPG;
+			path = StudyRPGTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -24,13 +188,22 @@
 			files = (
 			);
 		};
+		CC4C69793085173400A8394A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000010 /* StudyRPG */,
+				CCF17CF6308385D300E6B90A /* agents.md */,
+				CCF17CF7308385D300E6B90A /* game.md */,
+				CCF17D04308385D300E6B90A /* resource */,
+				CCF17D13308385D300E6B90A /* StudyRPG */,
+				CC4C697D3085173400A8394A /* StudyRPGTests */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,8 +212,135 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000120 /* StudyRPG.app */,
+				CC4C697C3085173400A8394A /* StudyRPGTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3D78E93085147700999206 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D78EA3085147700999206 /* Theme.swift */,
+				CC3D78EC3085147B00999206 /* ArtCache.swift */,
+				CC3D78EE3085147C00999206 /* ProceduralSpriteArt.swift */,
+				CC3D78F03085147D00999206 /* SceneBackdrops.swift */,
+				CC3D78F23085147D00999206 /* DeckViews.swift */,
+				CC3D78F63085147F00999206 /* BattleStage.swift */,
+				CC3D78F83085147F00999206 /* CombatVFX.swift */,
+				CC3D78FA3085148000999206 /* FlashcardQuizOverlay.swift */,
+				CC3D78FC3085148100999206 /* CombatConsole.swift */,
+				CC3D78FE3085148200999206 /* FightView.swift */,
+				CC3D79003085148200999206 /* CharacterInfoSheet.swift */,
+				CC3D79023085148300999206 /* RunSymbols.swift */,
+				CC3D79043085148400999206 /* PartySheet.swift */,
+				CC3D79063085148400999206 /* RunMapView.swift */,
+				CC3D79083085148500999206 /* ScenePlaceholders.swift */,
+				CC3D790A3085148600999206 /* ShopView.swift */,
+				CC3D790C3085148600999206 /* CampfireView.swift */,
+				CC3D790E3085148700999206 /* EventView.swift */,
+				CC3D79103085148800999206 /* SkillRewardView.swift */,
+				CC3D79123085148800999206 /* SettingsView.swift */,
+				CC3D79143085148900999206 /* RunEndViews.swift */,
+				CC3D79163085148A00999206 /* RunSetupView.swift */,
+				CC3D79183085148B00999206 /* TestFightSetupView.swift */,
+				CCD35D0A3085DAF40070E355 /* StageFrame.swift */,
+				CC8839D13088FD5C0066C039 /* ScenePreviews.swift */,
+				CCE8F1773089C0CF00BEDA7A /* ItemArt.swift */,
+				CCE8F1793089C1AF00BEDA7A /* SkillArt.swift */,
+				CCE8F17B3089C33900BEDA7A /* EventArt.swift */,
+				CCE8F17F3089C54100BEDA7A /* CodexViews.swift */,
+				CCE8F1833089C77D00BEDA7A /* SkillMotifs.swift */,
+				CCE8F1873089C9F200BEDA7A /* EnemySkillText.swift */,
+				CCD75D87308A2DA600F012E9 /* HoloMapArt.swift */,
+				CCEA3FB1308F17F9007AF847 /* Platform.swift */,
+				CCEA3FB5308F29CE007AF847 /* GameMenuCommands.swift */,
+				CCEA3FB7308F3ADA007AF847 /* ParchmentMapArt.swift */,
+				CC5835BB308FB2C900AADD62 /* DiceTrayView.swift */,
+				CC5835BF308FB81E00AADD62 /* HeroDieViews.swift */,
+				CC5835C3308FBB5F00AADD62 /* SkillUpgradeViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCF17D04308385D300E6B90A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CCF17CF8308385D300E6B90A /* goblin.png */,
+				CCF17CF9308385D300E6B90A /* knight.png */,
+				CCF17CFA308385D300E6B90A /* mountain.png */,
+				CCF17CFB308385D300E6B90A /* mountain 1.png */,
+				CCF17CFC308385D300E6B90A /* mountain 2.png */,
+				CCF17CFD308385D300E6B90A /* mountain 3.png */,
+				CCF17CFE308385D300E6B90A /* skeleton.png */,
+				CCF17CFF308385D300E6B90A /* skeleton 1.png */,
+				CCF17D00308385D300E6B90A /* tree_1.png */,
+				CCF17D01308385D300E6B90A /* tree_1 1.png */,
+				CCF17D02308385D300E6B90A /* wizard.png */,
+				CCF17D03308385D300E6B90A /* wolf.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		CCF17D0B308385D300E6B90A /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCF17D05308385D300E6B90A /* balance.json */,
+				CCF17D06308385D300E6B90A /* classes.json */,
+				CCF17D07308385D300E6B90A /* encounters.json */,
+				CCF17D08308385D300E6B90A /* enemies.json */,
+				CCF17D09308385D300E6B90A /* items.json */,
+				CCF17D0A308385D300E6B90A /* relics.json */,
+				CC8839CB3088F57A0066C039 /* starter_decks.json */,
+				CC7DA218308F667100DDF173 /* Content.xcstrings */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		CCF17D0D308385D300E6B90A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCF17D0C308385D300E6B90A /* GameContent.swift */,
+				CC3D792A3085149100999206 /* FlashcardModels.swift */,
+				CC3D792C3085149200999206 /* CombatState.swift */,
+				CC3D792E3085149200999206 /* RunModels.swift */,
+				CC5835BD308FB78C00AADD62 /* HeroDie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCF17D0F308385D300E6B90A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CCF17D0E308385D300E6B90A /* ContentLoader.swift */,
+				CC3D791A3085148B00999206 /* FlashcardServices.swift */,
+				CC3D791C3085148C00999206 /* GameSettings.swift */,
+				CC3D791E3085148D00999206 /* DeckStore.swift */,
+				CC3D79203085148D00999206 /* MapGenerator.swift */,
+				CC3D79223085148E00999206 /* FlashcardSession.swift */,
+				CC3D79243085148F00999206 /* RunStores.swift */,
+				CC3D79263085148F00999206 /* RunState.swift */,
+				CC3D79283085149000999206 /* CombatEngine.swift */,
+				CC8839CD3088F6EE0066C039 /* SoundEngine.swift */,
+				CCE8F17D3089C4EC00BEDA7A /* DiscoveryStore.swift */,
+				CCE8F1853089C96B00BEDA7A /* EnemyBrain.swift */,
+				CC7DA214308F64FC00DDF173 /* Localization.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CCF17D13308385D300E6B90A /* StudyRPG */ = {
+			isa = PBXGroup;
+			children = (
+				CCF17D0B308385D300E6B90A /* Content */,
+				CCF17D0D308385D300E6B90A /* Models */,
+				CCF17D0F308385D300E6B90A /* Services */,
+				CCF17D10308385D300E6B90A /* Assets.xcassets */,
+				CCF17D11308385D300E6B90A /* ContentView.swift */,
+				CCF17D12308385D300E6B90A /* MyApp.swift */,
+				CC3D78E93085147700999206 /* Views */,
+				CC7DA216308F667100DDF173 /* Localizable.xcstrings */,
+			);
+			path = StudyRPG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -56,13 +356,31 @@
 			);
 			buildRules = (
 			);
-			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* StudyRPG */,
-			);
 			name = StudyRPG;
 			productName = MyApp;
 			productReference = 000000000000000000000120 /* StudyRPG.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CC4C697B3085173400A8394A /* StudyRPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C69843085173400A8394A /* Build configuration list for PBXNativeTarget "StudyRPGTests" */;
+			buildPhases = (
+				CC4C69783085173400A8394A /* Sources */,
+				CC4C69793085173400A8394A /* Frameworks */,
+				CC4C697A3085173400A8394A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4C69813085173400A8394A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC4C697D3085173400A8394A /* StudyRPGTests */,
+			);
+			name = StudyRPGTests;
+			productName = StudyRPGTests;
+			productReference = CC4C697C3085173400A8394A /* StudyRPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -71,11 +389,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2700;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
 				TargetAttributes = {
 					000000000000000100000000 = {
 						CreatedOnToolsVersion = 26.3;
+					};
+					CC4C697B3085173400A8394A = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 000000000000000100000000;
 					};
 				};
 			};
@@ -94,12 +416,28 @@
 			projectRoot = "";
 			targets = (
 				000000000000000100000000 /* StudyRPG */,
+				CC4C697B3085173400A8394A /* StudyRPGTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		000000000000000140000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				CC8839CC3088F57A0066C039 /* starter_decks.json in Resources */,
+				CCF17D18308385D300E6B90A /* relics.json in Resources */,
+				CCF17D1B308385D300E6B90A /* items.json in Resources */,
+				CC7DA219308F667100DDF173 /* Content.xcstrings in Resources */,
+				CCF17D1F308385D300E6B90A /* balance.json in Resources */,
+				CCF17D22308385D300E6B90A /* Assets.xcassets in Resources */,
+				CCF17D25308385D300E6B90A /* enemies.json in Resources */,
+				CCF17D26308385D300E6B90A /* classes.json in Resources */,
+				CCF17D28308385D300E6B90A /* encounters.json in Resources */,
+				CC7DA217308F667100DDF173 /* Localizable.xcstrings in Resources */,
+			);
+		};
+		CC4C697A3085173400A8394A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -110,9 +448,80 @@
 		000000000000000120000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				CC3D78F93085147F00999206 /* CombatVFX.swift in Sources */,
+				CC7DA215308F64FC00DDF173 /* Localization.swift in Sources */,
+				CC3D78FF3085148200999206 /* FightView.swift in Sources */,
+				CC3D791D3085148C00999206 /* GameSettings.swift in Sources */,
+				CC3D78ED3085147B00999206 /* ArtCache.swift in Sources */,
+				CC5835C0308FB81E00AADD62 /* HeroDieViews.swift in Sources */,
+				CCE8F1803089C54100BEDA7A /* CodexViews.swift in Sources */,
+				CCF17D29308385D300E6B90A /* ContentLoader.swift in Sources */,
+				CC3D78EF3085147C00999206 /* ProceduralSpriteArt.swift in Sources */,
+				CC3D79013085148200999206 /* CharacterInfoSheet.swift in Sources */,
+				CC3D79253085148F00999206 /* RunStores.swift in Sources */,
+				CCE8F1883089C9F200BEDA7A /* EnemySkillText.swift in Sources */,
+				CC3D79153085148900999206 /* RunEndViews.swift in Sources */,
+				CC3D79093085148500999206 /* ScenePlaceholders.swift in Sources */,
+				CC3D79113085148800999206 /* SkillRewardView.swift in Sources */,
+				CCE8F17A3089C1AF00BEDA7A /* SkillArt.swift in Sources */,
+				CC3D79073085148400999206 /* RunMapView.swift in Sources */,
+				CC5835C4308FBB5F00AADD62 /* SkillUpgradeViews.swift in Sources */,
+				CC3D78F33085147D00999206 /* DeckViews.swift in Sources */,
+				CC3D79293085149000999206 /* CombatEngine.swift in Sources */,
+				CC3D790B3085148600999206 /* ShopView.swift in Sources */,
+				CC3D79053085148400999206 /* PartySheet.swift in Sources */,
+				CCF17D2A308385D300E6B90A /* ContentView.swift in Sources */,
+				CC8839CE3088F6EE0066C039 /* SoundEngine.swift in Sources */,
+				CC3D790D3085148600999206 /* CampfireView.swift in Sources */,
+				CC3D79133085148800999206 /* SettingsView.swift in Sources */,
+				CC5835BE308FB78C00AADD62 /* HeroDie.swift in Sources */,
+				CCE8F17E3089C4EC00BEDA7A /* DiscoveryStore.swift in Sources */,
+				CC3D79213085148D00999206 /* MapGenerator.swift in Sources */,
+				CC3D79193085148B00999206 /* TestFightSetupView.swift in Sources */,
+				CCEA3FB8308F3ADA007AF847 /* ParchmentMapArt.swift in Sources */,
+				CCF17D2B308385D300E6B90A /* GameContent.swift in Sources */,
+				CCE8F17C3089C33900BEDA7A /* EventArt.swift in Sources */,
+				CC3D79233085148E00999206 /* FlashcardSession.swift in Sources */,
+				CCE8F1843089C77D00BEDA7A /* SkillMotifs.swift in Sources */,
+				CC3D78FB3085148000999206 /* FlashcardQuizOverlay.swift in Sources */,
+				CC3D792D3085149200999206 /* CombatState.swift in Sources */,
+				CCD35D0B3085DAF40070E355 /* StageFrame.swift in Sources */,
+				CCE8F1783089C0CF00BEDA7A /* ItemArt.swift in Sources */,
+				CC5835BC308FB2C900AADD62 /* DiceTrayView.swift in Sources */,
+				CC3D79173085148A00999206 /* RunSetupView.swift in Sources */,
+				CCD75D88308A2DA600F012E9 /* HoloMapArt.swift in Sources */,
+				CC3D78EB3085147700999206 /* Theme.swift in Sources */,
+				CC3D79273085148F00999206 /* RunState.swift in Sources */,
+				CCEA3FB6308F29CE007AF847 /* GameMenuCommands.swift in Sources */,
+				CC3D791F3085148D00999206 /* DeckStore.swift in Sources */,
+				CC3D792B3085149100999206 /* FlashcardModels.swift in Sources */,
+				CC3D78F13085147D00999206 /* SceneBackdrops.swift in Sources */,
+				CCEA3FB2308F17F9007AF847 /* Platform.swift in Sources */,
+				CC3D792F3085149200999206 /* RunModels.swift in Sources */,
+				CC3D78FD3085148100999206 /* CombatConsole.swift in Sources */,
+				CC3D790F3085148700999206 /* EventView.swift in Sources */,
+				CC3D79033085148300999206 /* RunSymbols.swift in Sources */,
+				CC3D791B3085148B00999206 /* FlashcardServices.swift in Sources */,
+				CC3D78F73085147F00999206 /* BattleStage.swift in Sources */,
+				CCF17D2C308385D300E6B90A /* MyApp.swift in Sources */,
+				CCE8F1863089C96B00BEDA7A /* EnemyBrain.swift in Sources */,
+				CC8839D23088FD5C0066C039 /* ScenePreviews.swift in Sources */,
+			);
+		};
+		CC4C69783085173400A8394A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
 			);
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4C69813085173400A8394A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000100000000 /* StudyRPG */;
+			targetProxy = CC4C69803085173400A8394A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		000000000000000011000000 /* Debug configuration for PBXProject "StudyRPG" */ = {
@@ -151,6 +560,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PYSRU834C2;
 				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -221,6 +631,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PYSRU834C2;
 				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -250,23 +661,31 @@
 		000000000000000111000000 /* Debug configuration for PBXNativeTarget "StudyRPG" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PYSRU834C2;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take a photo to use on a flashcard.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to use on a flashcard.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIRequiresFullScreen[sdk=*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -275,36 +694,42 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		000000000000000112000000 /* Release configuration for PBXNativeTarget "StudyRPG" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PYSRU834C2;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take a photo to use on a flashcard.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to use on a flashcard.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIRequiresFullScreen[sdk=*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -313,13 +738,69 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC4C69823085173400A8394A /* Debug configuration for PBXNativeTarget "StudyRPGTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erikgundermann.StudyRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyRPG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyRPG";
+			};
+			name = Debug;
+		};
+		CC4C69833085173400A8394A /* Release configuration for PBXNativeTarget "StudyRPGTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erikgundermann.StudyRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyRPG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyRPG";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -339,6 +820,14 @@
 			buildConfigurations = (
 				000000000000000111000000 /* Debug configuration for PBXNativeTarget "StudyRPG" */,
 				000000000000000112000000 /* Release configuration for PBXNativeTarget "StudyRPG" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CC4C69843085173400A8394A /* Build configuration list for PBXNativeTarget "StudyRPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C69823085173400A8394A /* Debug configuration for PBXNativeTarget "StudyRPGTests" */,
+				CC4C69833085173400A8394A /* Release configuration for PBXNativeTarget "StudyRPGTests" */,
 			);
 			defaultConfigurationName = Release;
 		};

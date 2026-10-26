@@ -1,0 +1,525 @@
+{
+  "acts": [
+    {
+      "id": "kingdom",
+      "name": "The Old Kingdom",
+      "mapStyle": "parchment"
+    },
+    {
+      "id": "future",
+      "name": "Neon Frontier",
+      "mapStyle": "hologram"
+    }
+  ],
+  "_comment": "Encounter pools by node type. depthTier buckets the node's position along the map (0 = early, 1 = mid, 2 = late) so difficulty scales with progress. A fight node draws one encounter at random from the matching pool. Events: one is drawn at random per event node; a flashcard decides reward (right) vs penalty (wrong). Outcome types: gold, potion, relic, heal, maxHP, loseHP, loseGold, gear. Themes: every encounter names its own theme; a bg_<themeId> image in Assets.xcassets replaces the placeholder painting. style: forest/camp/graveyard/ruins/cave/crypt/mountain/swamp/lair. platform: grass/stone/snow/moss/ash/rock.",
+  "themes": [
+    {
+      "id": "goblin_camp",
+      "style": "camp",
+      "skyTop": "#16202e",
+      "skyBottom": "#3a3f4a",
+      "ground": "#1c2418",
+      "accent": "#f0a050",
+      "platform": "grass"
+    },
+    {
+      "id": "old_graveyard",
+      "style": "graveyard",
+      "skyTop": "#0d1118",
+      "skyBottom": "#2a3140",
+      "ground": "#15181d",
+      "accent": "#c8d4e8",
+      "platform": "stone"
+    },
+    {
+      "id": "moonlit_woods",
+      "style": "forest",
+      "skyTop": "#0e1626",
+      "skyBottom": "#2b3d55",
+      "ground": "#14201a",
+      "accent": "#e8e6c8",
+      "platform": "grass"
+    },
+    {
+      "id": "goblin_hollow",
+      "style": "forest",
+      "skyTop": "#1d1622",
+      "skyBottom": "#5a3d3a",
+      "ground": "#1b1f16",
+      "accent": "#f08a40",
+      "platform": "moss"
+    },
+    {
+      "id": "haunted_ruins",
+      "style": "ruins",
+      "skyTop": "#141420",
+      "skyBottom": "#3c3850",
+      "ground": "#1a1a20",
+      "accent": "#9fc8b0",
+      "platform": "stone"
+    },
+    {
+      "id": "wolf_den",
+      "style": "cave",
+      "skyTop": "#0c0d10",
+      "skyBottom": "#24262c",
+      "ground": "#141416",
+      "accent": "#7fb0ff",
+      "platform": "rock"
+    },
+    {
+      "id": "bone_crypt",
+      "style": "crypt",
+      "skyTop": "#0b0b0e",
+      "skyBottom": "#2a2420",
+      "ground": "#16130f",
+      "accent": "#f2a24a",
+      "platform": "stone"
+    },
+    {
+      "id": "frozen_pass",
+      "style": "mountain",
+      "skyTop": "#0f1a2e",
+      "skyBottom": "#4a6382",
+      "ground": "#1c2632",
+      "accent": "#eef4ff",
+      "platform": "snow"
+    },
+    {
+      "id": "troll_peak",
+      "style": "mountain",
+      "skyTop": "#141a24",
+      "skyBottom": "#5b5e66",
+      "ground": "#22201c",
+      "accent": "#f2c27a",
+      "platform": "rock"
+    },
+    {
+      "id": "witch_bog",
+      "style": "swamp",
+      "skyTop": "#0c140f",
+      "skyBottom": "#2c3a2a",
+      "ground": "#121a12",
+      "accent": "#9be06a",
+      "platform": "moss"
+    },
+    {
+      "id": "dragon_lair",
+      "style": "lair",
+      "skyTop": "#140606",
+      "skyBottom": "#4a160c",
+      "ground": "#1a0806",
+      "accent": "#ff7a2a",
+      "platform": "ash"
+    },
+    {
+      "id": "neon_city",
+      "style": "future",
+      "skyTop": "#060B1C",
+      "skyBottom": "#1B2350",
+      "ground": "#0C1226",
+      "accent": "#3FE0FF",
+      "platform": "metal"
+    },
+    {
+      "id": "server_vault",
+      "style": "future",
+      "skyTop": "#05110F",
+      "skyBottom": "#0F2E33",
+      "ground": "#081816",
+      "accent": "#6BFFC8",
+      "platform": "metal"
+    }
+  ],
+  "pools": [
+    {
+      "act": "kingdom",
+      "nodeType": "fight",
+      "depthTier": 0,
+      "encounters": [
+        {
+          "enemyIds": [
+            "goblin"
+          ],
+          "theme": "goblin_camp"
+        },
+        {
+          "enemyIds": [
+            "skeleton"
+          ],
+          "theme": "old_graveyard"
+        },
+        {
+          "enemyIds": [
+            "wolf"
+          ],
+          "theme": "moonlit_woods"
+        },
+        {
+          "enemyIds": [
+            "spider",
+            "spider",
+            "spider"
+          ],
+          "theme": "haunted_ruins"
+        }
+      ]
+    },
+    {
+      "act": "kingdom",
+      "nodeType": "fight",
+      "depthTier": 1,
+      "encounters": [
+        {
+          "enemyIds": [
+            "goblin",
+            "goblin"
+          ],
+          "theme": "goblin_hollow"
+        },
+        {
+          "enemyIds": [
+            "skeleton",
+            "wolf"
+          ],
+          "theme": "haunted_ruins"
+        },
+        {
+          "enemyIds": [
+            "wolf",
+            "wolf",
+            "goblin"
+          ],
+          "theme": "wolf_den"
+        },
+        {
+          "enemyIds": [
+            "spider",
+            "spider",
+            "spider"
+          ],
+          "theme": "wolf_den"
+        }
+      ]
+    },
+    {
+      "act": "kingdom",
+      "nodeType": "fight",
+      "depthTier": 2,
+      "encounters": [
+        {
+          "enemyIds": [
+            "skeleton",
+            "skeleton",
+            "wolf"
+          ],
+          "theme": "bone_crypt"
+        },
+        {
+          "enemyIds": [
+            "wolf",
+            "wolf",
+            "skeleton"
+          ],
+          "theme": "frozen_pass"
+        }
+      ]
+    },
+    {
+      "act": "kingdom",
+      "nodeType": "elite",
+      "depthTier": 0,
+      "encounters": [
+        {
+          "enemyIds": [
+            "troll"
+          ],
+          "theme": "troll_peak"
+        }
+      ]
+    },
+    {
+      "act": "kingdom",
+      "nodeType": "elite",
+      "depthTier": 1,
+      "encounters": [
+        {
+          "enemyIds": [
+            "troll"
+          ],
+          "theme": "troll_peak"
+        },
+        {
+          "enemyIds": [
+            "witch"
+          ],
+          "theme": "witch_bog"
+        }
+      ]
+    },
+    {
+      "act": "kingdom",
+      "nodeType": "elite",
+      "depthTier": 2,
+      "encounters": [
+        {
+          "enemyIds": [
+            "troll",
+            "goblin"
+          ],
+          "theme": "troll_peak"
+        },
+        {
+          "enemyIds": [
+            "witch",
+            "skeleton"
+          ],
+          "theme": "witch_bog"
+        }
+      ]
+    },
+    {
+      "act": "kingdom",
+      "nodeType": "boss",
+      "depthTier": 0,
+      "encounters": [
+        {
+          "enemyIds": [
+            "dragon"
+          ],
+          "theme": "dragon_lair"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "fight",
+      "depthTier": 0,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel"
+          ],
+          "theme": "neon_city"
+        },
+        {
+          "enemyIds": [
+            "sentinel"
+          ],
+          "theme": "server_vault"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "fight",
+      "depthTier": 1,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "neon_city"
+        },
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "server_vault"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "fight",
+      "depthTier": 2,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "server_vault"
+        },
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "neon_city"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "elite",
+      "depthTier": 0,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "server_vault"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "elite",
+      "depthTier": 1,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "neon_city"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "elite",
+      "depthTier": 2,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "server_vault"
+        }
+      ]
+    },
+    {
+      "act": "future",
+      "nodeType": "boss",
+      "depthTier": 0,
+      "encounters": [
+        {
+          "enemyIds": [
+            "sentinel",
+            "sentinel",
+            "sentinel"
+          ],
+          "theme": "neon_city"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "shrine",
+      "icon": "building.columns.fill",
+      "scene": "shrine",
+      "text": "A forgotten shrine hums with old knowledge.",
+      "reward": {
+        "type": "relic"
+      },
+      "penalty": {
+        "type": "loseHP",
+        "amount": 5
+      }
+    },
+    {
+      "id": "merchant_cart",
+      "icon": "cart.fill",
+      "scene": "merchantCart",
+      "text": "An overturned merchant cart blocks the road.",
+      "reward": {
+        "type": "potion"
+      },
+      "penalty": {
+        "type": "loseGold",
+        "amount": 10
+      }
+    },
+    {
+      "id": "spring",
+      "icon": "drop.fill",
+      "scene": "spring",
+      "text": "A glowing spring bubbles between the stones.",
+      "reward": {
+        "type": "heal",
+        "amount": 10
+      },
+      "penalty": {
+        "type": "loseHP",
+        "amount": 4
+      }
+    },
+    {
+      "id": "chest",
+      "icon": "shippingbox.fill",
+      "scene": "chest",
+      "text": "A chest with a riddle carved into its lid.",
+      "reward": {
+        "type": "gold",
+        "amount": 25
+      },
+      "penalty": {
+        "type": "loseHP",
+        "amount": 6
+      }
+    },
+    {
+      "id": "library",
+      "icon": "books.vertical.fill",
+      "scene": "library",
+      "text": "A ruined library, one book still glowing.",
+      "reward": {
+        "type": "maxHP",
+        "amount": 3
+      },
+      "penalty": {
+        "type": "loseGold",
+        "amount": 8
+      }
+    },
+    {
+      "id": "stranger",
+      "icon": "person.fill.questionmark",
+      "scene": "questGiver",
+      "text": "A hooded stranger blocks the path with a riddle.",
+      "reward": {
+        "type": "gold",
+        "amount": 30
+      },
+      "penalty": {
+        "type": "loseGold",
+        "amount": 12
+      }
+    },
+    {
+      "id": "crossroads",
+      "icon": "signpost.right.and.left.fill",
+      "scene": "signpost",
+      "text": "A weathered signpost, its words half worn away.",
+      "reward": {
+        "type": "potion"
+      },
+      "penalty": {
+        "type": "loseHP",
+        "amount": 3
+      }
+    },
+    {
+      "id": "fallen_knight",
+      "icon": "shield.lefthalf.filled",
+      "scene": "fallenKnight",
+      "text": "A fallen knight's pack lies by the road. Read the old inscription to claim it.",
+      "reward": {
+        "type": "gear"
+      },
+      "penalty": {
+        "type": "loseHP",
+        "amount": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "items": [
+    {
+      "id": "health_potion",
+      "name": "Health Potion",
+      "spriteId": "health_potion",
+      "cost": 15,
+      "actionPoints": 1,
+      "effect": {
+        "type": "heal",
+        "target": "singleAlly",
+        "dice": {
+          "count": 0,
+          "flat": 8
+        }
+      }
+    },
+    {
+      "id": "strength_potion",
+      "name": "Strength Potion",
+      "spriteId": "strength_potion",
+      "cost": 18,
+      "actionPoints": 1,
+      "effect": {
+        "type": "bonusDice",
+        "target": "singleAlly",
+        "amount": 1
+      }
+    },
+    {
+      "id": "mana_potion",
+      "name": "Mana Potion",
+      "spriteId": "mana_potion",
+      "cost": 15,
+      "actionPoints": 1,
+      "effect": {
+        "type": "resource",
+        "target": "wizard",
+        "amount": 2
+      }
+    }
+  ],
+  "gear": [
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "spriteId": "iron_sword",
+      "slot": "weapon",
+      "cost": 30,
+      "classId": "warrior",
+      "effects": [
+        {
+          "type": "damageBonus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "executioner_axe",
+      "name": "Executioner's Axe",
+      "spriteId": "executioner_axe",
+      "slot": "weapon",
+      "cost": 28,
+      "classId": "warrior",
+      "effects": [
+        {
+          "type": "damageBonus",
+          "amount": 3,
+          "skillId": "warrior_heavy_strike"
+        }
+      ]
+    },
+    {
+      "id": "oak_staff",
+      "name": "Oak Staff",
+      "spriteId": "oak_staff",
+      "slot": "weapon",
+      "cost": 30,
+      "classId": "wizard",
+      "effects": [
+        {
+          "type": "damageBonus",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "ember_wand",
+      "name": "Ember Wand",
+      "spriteId": "ember_wand",
+      "slot": "weapon",
+      "cost": 28,
+      "classId": "wizard",
+      "effects": [
+        {
+          "type": "damageBonus",
+          "amount": 2,
+          "skillId": "wizard_fireball"
+        }
+      ]
+    },
+    {
+      "id": "chainmail",
+      "name": "Chainmail",
+      "spriteId": "chainmail",
+      "slot": "armor",
+      "cost": 35,
+      "effects": [
+        {
+          "type": "block",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "padded_robe",
+      "name": "Padded Robe",
+      "spriteId": "padded_robe",
+      "slot": "armor",
+      "cost": 25,
+      "effects": [
+        {
+          "type": "maxHP",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "troll_hide",
+      "name": "Troll Hide",
+      "spriteId": "troll_hide",
+      "slot": "armor",
+      "cost": 40,
+      "effects": [
+        {
+          "type": "maxHP",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": "mana_crystal",
+      "name": "Mana Crystal",
+      "spriteId": "mana_crystal",
+      "slot": "trinket",
+      "cost": 30,
+      "classId": "wizard",
+      "effects": [
+        {
+          "type": "startResource",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "healers_charm",
+      "name": "Healer's Charm",
+      "spriteId": "healers_charm",
+      "slot": "trinket",
+      "cost": 25,
+      "effects": [
+        {
+          "type": "healBonus",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "whetstone",
+      "name": "Whetstone",
+      "spriteId": "whetstone",
+      "slot": "trinket",
+      "cost": 30,
+      "effects": [
+        {
+          "type": "firstRollBonusDice",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

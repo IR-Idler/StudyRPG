@@ -1,0 +1,82 @@
+{
+  "decks": [
+    {
+      "format": "studyrpg-deck",
+      "version": 1,
+      "id": "starter-world-capitals",
+      "name": "World Capitals",
+      "subtitle": "Starter deck",
+      "icon": "globe.europe.africa.fill",
+      "color": "#5B8DB8",
+      "reverseCards": true,
+      "cards": [
+        { "id": "france", "prompt": "Capital of…", "question": { "text": "France" }, "answer": { "text": "Paris" }, "wrongAnswers": [{ "text": "Lyon" }, { "text": "Marseille" }], "explanation": "Paris has been France's capital for most of the last thousand years." },
+        { "id": "germany", "prompt": "Capital of…", "question": { "text": "Germany" }, "answer": { "text": "Berlin" }, "wrongAnswers": [{ "text": "Munich" }, { "text": "Bonn" }], "hint": "Bonn was the capital of West Germany until 1990.", "explanation": "Berlin became the capital of reunified Germany in 1990." },
+        { "id": "italy", "prompt": "Capital of…", "question": { "text": "Italy" }, "answer": { "text": "Rome" }, "wrongAnswers": [{ "text": "Milan" }, { "text": "Naples" }] },
+        { "id": "spain", "prompt": "Capital of…", "question": { "text": "Spain" }, "answer": { "text": "Madrid" }, "wrongAnswers": [{ "text": "Barcelona" }, { "text": "Seville" }] },
+        { "id": "japan", "prompt": "Capital of…", "question": { "text": "Japan" }, "answer": { "text": "Tokyo" }, "wrongAnswers": [{ "text": "Kyoto" }, { "text": "Osaka" }], "hint": "Its name means \"eastern capital\".", "explanation": "Kyoto was the imperial capital until 1868; then the court moved to Edo, renamed Tokyo." },
+        { "id": "australia", "prompt": "Capital of…", "question": { "text": "Australia" }, "answer": { "text": "Canberra" }, "wrongAnswers": [{ "text": "Sydney" }, { "text": "Melbourne" }], "hint": "Not the biggest city — a compromise between the two biggest.", "explanation": "Canberra was purpose-built as a compromise between rivals Sydney and Melbourne." },
+        { "id": "canada", "prompt": "Capital of…", "question": { "text": "Canada" }, "answer": { "text": "Ottawa" }, "wrongAnswers": [{ "text": "Toronto" }, { "text": "Montreal" }, { "text": "Vancouver" }] },
+        { "id": "brazil", "prompt": "Capital of…", "question": { "text": "Brazil" }, "answer": { "text": "Brasília" }, "wrongAnswers": [{ "text": "Rio de Janeiro" }, { "text": "São Paulo" }], "explanation": "Brasília replaced Rio de Janeiro as the capital in 1960." },
+        { "id": "egypt", "prompt": "Capital of…", "question": { "text": "Egypt" }, "answer": { "text": "Cairo" }, "wrongAnswers": [{ "text": "Alexandria" }, { "text": "Giza" }] },
+        { "id": "turkey", "prompt": "Capital of…", "question": { "text": "Turkey" }, "answer": { "text": "Ankara" }, "wrongAnswers": [{ "text": "Istanbul" }, { "text": "Izmir" }], "hint": "Not the city on the Bosphorus.", "explanation": "Ankara has been the capital since 1923; Istanbul is the largest city." },
+        { "id": "switzerland", "prompt": "Capital of…", "question": { "text": "Switzerland" }, "answer": { "text": "Bern" }, "wrongAnswers": [{ "text": "Zurich" }, { "text": "Geneva" }] },
+        { "id": "norway", "prompt": "Capital of…", "question": { "text": "Norway" }, "answer": { "text": "Oslo" }, "wrongAnswers": [{ "text": "Bergen" }] },
+        { "id": "kenya", "prompt": "Capital of…", "question": { "text": "Kenya" }, "answer": { "text": "Nairobi" }, "wrongAnswers": [{ "text": "Mombasa" }] },
+        { "id": "argentina", "prompt": "Capital of…", "question": { "text": "Argentina" }, "answer": { "text": "Buenos Aires" }, "wrongAnswers": [{ "text": "Córdoba" }] },
+        { "id": "south-korea", "prompt": "Capital of…", "question": { "text": "South Korea" }, "answer": { "text": "Seoul" }, "wrongAnswers": [{ "text": "Busan" }] },
+        { "id": "new-zealand", "prompt": "Capital of…", "question": { "text": "New Zealand" }, "answer": { "text": "Wellington" }, "wrongAnswers": [{ "text": "Auckland" }, { "text": "Christchurch" }], "explanation": "Wellington sits at the southern tip of the North Island; Auckland is far bigger." }
+      ]
+    },
+    {
+      "format": "studyrpg-deck",
+      "version": 1,
+      "id": "starter-colors-signs",
+      "name": "Colors & Signs",
+      "subtitle": "Starter deck · picture answers",
+      "icon": "paintpalette.fill",
+      "color": "#B8735B",
+      "reverseCards": true,
+      "cards": [
+        { "id": "crimson", "prompt": "Which color is this?", "question": { "color": "#B0202A" }, "answer": { "text": "Crimson" } },
+        { "id": "emerald", "prompt": "Which color is this?", "question": { "color": "#2E8B57" }, "answer": { "text": "Emerald" } },
+        { "id": "sapphire", "prompt": "Which color is this?", "question": { "color": "#2547A8" }, "answer": { "text": "Sapphire" } },
+        { "id": "amber", "prompt": "Which color is this?", "question": { "color": "#E8A33A" }, "answer": { "text": "Amber" } },
+        { "id": "violet", "prompt": "Which color is this?", "question": { "color": "#7A4FB5" }, "answer": { "text": "Violet" } },
+        { "id": "teal", "prompt": "Which color is this?", "question": { "color": "#2A8C8C" }, "answer": { "text": "Teal" } },
+        { "id": "flame", "prompt": "What does this sign show?", "question": { "symbol": "flame.fill", "color": "#E2672E" }, "answer": { "text": "Fire" } },
+        { "id": "moon", "prompt": "What does this sign show?", "question": { "symbol": "moon.stars.fill", "color": "#C9B26B" }, "answer": { "text": "Night" } },
+        { "id": "leaf", "prompt": "What does this sign show?", "question": { "symbol": "leaf.fill", "color": "#5E9A4C" }, "answer": { "text": "Leaf" } },
+        { "id": "drop", "prompt": "What does this sign show?", "question": { "symbol": "drop.fill", "color": "#4A86C7" }, "answer": { "text": "Water" } },
+        { "id": "bolt", "prompt": "What does this sign show?", "question": { "symbol": "bolt.fill", "color": "#E8C23A" }, "answer": { "text": "Lightning" } },
+        { "id": "snow", "prompt": "What does this sign show?", "question": { "symbol": "snowflake", "color": "#8EC3E0" }, "answer": { "text": "Snow" } },
+        { "id": "crown", "prompt": "What does this sign show?", "question": { "symbol": "crown.fill", "color": "#D4AF37" }, "answer": { "text": "Crown" } },
+        { "id": "key", "prompt": "What does this sign show?", "question": { "symbol": "key.fill", "color": "#A88B5B" }, "answer": { "text": "Key" } }
+      ]
+    },
+    {
+      "format": "studyrpg-deck",
+      "version": 1,
+      "id": "starter-quick-math",
+      "name": "Quick Math",
+      "subtitle": "Starter deck · mental arithmetic",
+      "icon": "function",
+      "color": "#7A9A5B",
+      "reverseCards": false,
+      "cards": [
+        { "id": "m1", "prompt": "Solve", "question": { "text": "7 × 8" }, "answer": { "text": "56" }, "wrongAnswers": [{ "text": "54" }, { "text": "64" }, { "text": "48" }], "reversible": false },
+        { "id": "m2", "prompt": "Solve", "question": { "text": "12 × 12" }, "answer": { "text": "144" }, "wrongAnswers": [{ "text": "124" }, { "text": "132" }, { "text": "156" }], "reversible": false },
+        { "id": "m3", "prompt": "Solve", "question": { "text": "9 × 6" }, "answer": { "text": "54" }, "wrongAnswers": [{ "text": "56" }, { "text": "45" }, { "text": "63" }], "reversible": false },
+        { "id": "m4", "prompt": "Solve", "question": { "text": "81 ÷ 9" }, "answer": { "text": "9" }, "wrongAnswers": [{ "text": "8" }, { "text": "7" }, { "text": "11" }], "reversible": false },
+        { "id": "m5", "prompt": "Solve", "question": { "text": "15 × 4" }, "answer": { "text": "60" }, "wrongAnswers": [{ "text": "45" }, { "text": "64" }, { "text": "54" }], "reversible": false },
+        { "id": "m6", "prompt": "Solve", "question": { "text": "√169" }, "answer": { "text": "13" }, "wrongAnswers": [{ "text": "12" }, { "text": "14" }, { "text": "17" }], "hint": "13 × 13 = ?", "reversible": false },
+        { "id": "m7", "prompt": "Solve", "question": { "text": "2⁸" }, "answer": { "text": "256" }, "wrongAnswers": [{ "text": "128" }, { "text": "512" }, { "text": "64" }], "explanation": "Doubling eight times: 2, 4, 8, 16, 32, 64, 128, 256.", "reversible": false },
+        { "id": "m8", "prompt": "Solve", "question": { "text": "25% of 80" }, "answer": { "text": "20" }, "wrongAnswers": [{ "text": "25" }, { "text": "16" }, { "text": "40" }], "reversible": false },
+        { "id": "m9", "prompt": "Solve", "question": { "text": "17 + 26" }, "answer": { "text": "43" }, "wrongAnswers": [{ "text": "33" }, { "text": "42" }, { "text": "53" }], "reversible": false },
+        { "id": "m10", "prompt": "Solve", "question": { "text": "100 − 37" }, "answer": { "text": "63" }, "wrongAnswers": [{ "text": "73" }, { "text": "67" }, { "text": "53" }], "reversible": false },
+        { "id": "m11", "prompt": "Solve", "question": { "text": "3³" }, "answer": { "text": "27" }, "wrongAnswers": [{ "text": "9" }, { "text": "18" }, { "text": "81" }], "reversible": false },
+        { "id": "m12", "prompt": "Solve", "question": { "text": "1/2 + 1/4" }, "answer": { "text": "3/4" }, "wrongAnswers": [{ "text": "2/6" }, { "text": "1/6" }, { "text": "2/4" }], "reversible": false }
+      ]
+    }
+  ]
+}

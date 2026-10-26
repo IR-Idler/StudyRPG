@@ -1,0 +1,25 @@
+{
+  "relics": [
+    {
+      "id": "iron_shield",
+      "name": "Iron Shield",
+      "spriteId": "iron_shield",
+      "cost": 25,
+      "effect": { "type": "damageReduction", "amount": 1 }
+    },
+    {
+      "id": "lucky_ring",
+      "name": "Lucky Ring",
+      "spriteId": "lucky_ring",
+      "cost": 25,
+      "effect": { "type": "rollBonus", "amount": 1 }
+    },
+    {
+      "id": "heart_amulet",
+      "name": "Heart Amulet",
+      "spriteId": "heart_amulet",
+      "cost": 25,
+      "effect": { "type": "maxHPBonus", "amount": 6 }
+    }
+  ]
+}

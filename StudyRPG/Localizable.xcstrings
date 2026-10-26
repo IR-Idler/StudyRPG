@@ -1,0 +1,4092 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "?"
+          }
+        }
+      }
+    },
+    "(%@ only)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(nur %@)"
+          }
+        }
+      }
+    },
+    "[Picture]" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Bild]"
+          }
+        }
+      }
+    },
+    "/" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "/"
+          }
+        }
+      }
+    },
+    "%@ (%lld/%lld)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (%lld/%lld)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$lld/%3$lld)"
+          }
+        }
+      }
+    },
+    "%@ answers correctly." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ antwortet richtig."
+          }
+        }
+      }
+    },
+    "%@ answers wrong — the skill fizzles." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ antwortet falsch – die Fertigkeit verpufft."
+          }
+        }
+      }
+    },
+    "%@ damage to %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Schaden gegen %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ damage to %2$@"
+          }
+        }
+      }
+    },
+    "%@ deals %lld damage to %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ fügt %3$@ %2$lld Schaden zu."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ deals %2$lld damage to %3$@."
+          }
+        }
+      }
+    },
+    "%@ deals %lld less damage for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ verursacht %3$lld Runden lang %2$lld Schaden weniger."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ deals %2$lld less damage for %3$lld rounds."
+          }
+        }
+      }
+    },
+    "%@ deals %lld less damage per hit for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ verursacht %3$lld Runden lang %2$lld Schaden weniger pro Treffer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ deals %2$lld less damage per hit for %3$lld rounds."
+          }
+        }
+      }
+    },
+    "%@ deals %lld magic damage to %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ fügt %3$@ %2$lld Magieschaden zu."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ deals %2$lld magic damage to %3$@."
+          }
+        }
+      }
+    },
+    "%@ deals %lld more damage for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ verursacht %3$lld Runden lang %2$lld Schaden mehr."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ deals %2$lld more damage for %3$lld rounds."
+          }
+        }
+      }
+    },
+    "%@ deals %lld more damage per hit for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ verursacht %3$lld Runden lang %2$lld Schaden mehr pro Treffer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ deals %2$lld more damage per hit for %3$lld rounds."
+          }
+        }
+      }
+    },
+    "%@ details" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details zu %@"
+          }
+        }
+      }
+    },
+    "%@ drinks %@ and heals %lld HP." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ trinkt %2$@ und heilt %3$lld LP."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ drinks %2$@ and heals %3$lld HP."
+          }
+        }
+      }
+    },
+    "%@ drinks %@ and regains %lld %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ trinkt %2$@ und erhält %3$lld %4$@ zurück."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ drinks %2$@ and regains %3$lld %4$@."
+          }
+        }
+      }
+    },
+    "%@ drinks %@: +%lld die on the next roll." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ trinkt %2$@: +%3$lld Würfel beim nächsten Wurf."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ drinks %2$@: +%3$lld die on the next roll."
+          }
+        }
+      }
+    },
+    "%@ gains %lld %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ erhält %2$lld %3$@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ gains %2$lld %3$@."
+          }
+        }
+      }
+    },
+    "%@ heals %lld HP." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ heilt %2$lld LP."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ heals %2$lld HP."
+          }
+        }
+      }
+    },
+    "%@ is stunned and loses this turn." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist betäubt und verliert diesen Zug."
+          }
+        }
+      }
+    },
+    "%@ is stunned and skips its next %lld turn(s)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ist betäubt und setzt die nächsten %2$lld Züge aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ is stunned and skips its next %2$lld turn(s)."
+          }
+        }
+      }
+    },
+    "%@ is stunned and skips its turn." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist betäubt und setzt diesen Zug aus."
+          }
+        }
+      }
+    },
+    "%@ magic damage to %@, ignores block" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Magieschaden gegen %2$@, ignoriert Block"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ magic damage to %2$@, ignores block"
+          }
+        }
+      }
+    },
+    "%@ only" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nur %@"
+          }
+        }
+      }
+    },
+    "%@ raises its armor: −%lld damage per hit for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ verstärkt die Rüstung: %3$lld Runden lang −%2$lld Schaden pro Treffer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ raises its armor: −%2$lld damage per hit for %3$lld rounds."
+          }
+        }
+      }
+    },
+    "%@ skills" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertigkeiten: %@"
+          }
+        }
+      }
+    },
+    "%@ stuns %@: they lose their next %lld turn(s)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ betäubt %2$@: Die nächsten %3$lld Züge gehen verloren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ stuns %2$@: they lose their next %3$lld turn(s)."
+          }
+        }
+      }
+    },
+    "%@ takes %lld less damage per hit until their next turn." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ erleidet bis zum nächsten Zug %lld Schaden weniger pro Treffer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ takes %2$lld less damage per hit until their next turn."
+          }
+        }
+      }
+    },
+    "%@ takes %lld more damage per hit for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ erleidet %3$lld Runden lang %2$lld Schaden mehr pro Treffer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ takes %2$lld more damage per hit for %3$lld rounds."
+          }
+        }
+      }
+    },
+    "%@: … and %lld more problems" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: … und %2$lld weitere Probleme"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: … and %2$lld more problems"
+          }
+        }
+      }
+    },
+    "%@: couldn't read (%@)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: konnte nicht gelesen werden (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: couldn't read (%2$@)"
+          }
+        }
+      }
+    },
+    "%@: deck needs an id and a name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: Der Stapel braucht eine ID und einen Namen"
+          }
+        }
+      }
+    },
+    "%@: format version %lld is newer than this app supports" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: Formatversion %2$lld ist neuer, als diese App unterstützt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: format version %2$lld is newer than this app supports"
+          }
+        }
+      }
+    },
+    "%@%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$lld"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "%lld / %lld cards (%lld%%)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld Karten (%lld %%)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld cards (%3$lld%%)"
+          }
+        }
+      }
+    },
+    "%lld cards" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Karten"
+          }
+        }
+      }
+    },
+    "%lld cards in the pool" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Karten im Pool"
+          }
+        }
+      }
+    },
+    "%lld decks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Stapel"
+          }
+        }
+      }
+    },
+    "%lld enemy turns" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Gegnerzüge"
+          }
+        }
+      }
+    },
+    "%lld experience, top level" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Erfahrung, höchste Stufe"
+          }
+        }
+      }
+    },
+    "%lld gold" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Gold"
+          }
+        }
+      }
+    },
+    "%lld HP, attacks for %@ every %lld enemy turn(s), %lld gold" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld LP, greift alle %3$lld Gegnerzüge mit %2$@ an, %4$lld Gold"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld HP, attacks for %2$@ every %3$lld enemy turn(s), %4$lld gold"
+          }
+        }
+      }
+    },
+    "%lld of %lld action points" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld von %lld Aktionspunkten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$lld action points"
+          }
+        }
+      }
+    },
+    "%lld of %lld experience" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld von %lld Erfahrung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$lld experience"
+          }
+        }
+      }
+    },
+    "%lld runs" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Durchläufe"
+          }
+        }
+      }
+    },
+    "%lld with %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mit %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld with %2$@"
+          }
+        }
+      }
+    },
+    "%lld won" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gewonnen"
+          }
+        }
+      }
+    },
+    "%lld-sided die" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld-seitiger Würfel"
+          }
+        }
+      }
+    },
+    "%lld/%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld/%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "%lld/%lld found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld/%lld gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld found"
+          }
+        }
+      }
+    },
+    "%lld/%lld met" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld/%lld getroffen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld met"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %%"
+          }
+        }
+      }
+    },
+    "%lld%% · %lld/%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %% · %lld/%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld%% · %2$lld/%3$lld"
+          }
+        }
+      }
+    },
+    "%lld%% right" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %% richtig"
+          }
+        }
+      }
+    },
+    "%lld+ monsters standing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mindestens %lld Monster stehen"
+          }
+        }
+      }
+    },
+    "%lld+%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld+%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld+%2$lld"
+          }
+        }
+      }
+    },
+    "%lldd%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldW%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lldd%2$lld"
+          }
+        }
+      }
+    },
+    "%lldd6" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldW6"
+          }
+        }
+      }
+    },
+    "+%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld"
+          }
+        }
+      }
+    },
+    "+%lld %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "+%lld damage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld Schaden"
+          }
+        }
+      }
+    },
+    "+%lld damage for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld Schaden für %lld Runden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+%1$lld damage for %2$lld rounds"
+          }
+        }
+      }
+    },
+    "+%lld damage per hit for %@ for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%1$lld Schaden pro Treffer für %2$@, %3$lld Runden lang"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+%1$lld damage per hit for %2$@ for %3$lld rounds"
+          }
+        }
+      }
+    },
+    "+%lld die on that hero's next damage or heal roll" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld Würfel beim nächsten Schadens- oder Heilwurf dieses Helden"
+          }
+        }
+      }
+    },
+    "+%lld die on the first roll of each fight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld Würfel beim ersten Wurf jedes Kampfes"
+          }
+        }
+      }
+    },
+    "+%lld healing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld Heilung"
+          }
+        }
+      }
+    },
+    "+%lld mana" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld Mana"
+          }
+        }
+      }
+    },
+    "+%lld max HP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld max. LP"
+          }
+        }
+      }
+    },
+    "+%lld on every damage roll for %lld more round(s)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld auf jeden Schadenswurf, noch %lld Runden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+%1$lld on every damage roll for %2$lld more round(s)."
+          }
+        }
+      }
+    },
+    "+%lld on every damage roll, all run." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld auf jeden Schadenswurf, den ganzen Durchlauf."
+          }
+        }
+      }
+    },
+    "+%lld on every hit for %lld more round(s)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld auf jeden Treffer, noch %lld Runden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+%1$lld on every hit for %2$lld more round(s)."
+          }
+        }
+      }
+    },
+    "+%lld to every damage and healing roll, all run." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld auf jeden Schadens- und Heilwurf, den ganzen Durchlauf."
+          }
+        }
+      }
+    },
+    "+%lld%%" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld %%"
+          }
+        }
+      }
+    },
+    "=" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "="
+          }
+        }
+      }
+    },
+    "−%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld"
+          }
+        }
+      }
+    },
+    "−%lld damage from every hit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld Schaden bei jedem Treffer"
+          }
+        }
+      }
+    },
+    "−%lld damage per hit until your next turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld Schaden pro Treffer bis zu deinem nächsten Zug"
+          }
+        }
+      }
+    },
+    "−%lld%%" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld%%"
+          }
+        }
+      }
+    },
+    "1 card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Karte"
+          }
+        }
+      }
+    },
+    "1 deck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Stapel"
+          }
+        }
+      }
+    },
+    "1 enemy turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Gegnerzug"
+          }
+        }
+      }
+    },
+    "1 run" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Durchlauf"
+          }
+        }
+      }
+    },
+    "a hero below %@ HP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Held unter %@ LP"
+          }
+        }
+      }
+    },
+    "A hero skill" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Heldenfertigkeit"
+          }
+        }
+      }
+    },
+    "a monster below %@ HP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Monster unter %@ LP"
+          }
+        }
+      }
+    },
+    "A monster skill" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Monsterfertigkeit"
+          }
+        }
+      }
+    },
+    "A tap you can feel on heavy hits and explosions." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein spürbares Tippen bei schweren Treffern und Explosionen."
+          }
+        }
+      }
+    },
+    "Abandon" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgeben"
+          }
+        }
+      }
+    },
+    "Abandon run" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durchlauf aufgeben"
+          }
+        }
+      }
+    },
+    "Abandon this run?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Durchlauf aufgeben?"
+          }
+        }
+      }
+    },
+    "Abandoned" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgegeben"
+          }
+        }
+      }
+    },
+    "Absorbs %lld damage from each incoming hit." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fängt %lld Schaden von jedem Treffer ab."
+          }
+        }
+      }
+    },
+    "Accuracy" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trefferquote"
+          }
+        }
+      }
+    },
+    "ACT %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AKT %@"
+          }
+        }
+      }
+    },
+    "Acts every" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handelt alle"
+          }
+        }
+      }
+    },
+    "Add a deck with %lld+ cards first" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Füge zuerst einen Stapel mit mindestens %lld Karten hinzu"
+          }
+        }
+      }
+    },
+    "Add Card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte hinzufügen"
+          }
+        }
+      }
+    },
+    "Add Starter Decks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startstapel hinzufügen"
+          }
+        }
+      }
+    },
+    "Add wrong answer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falsche Antwort hinzufügen"
+          }
+        }
+      }
+    },
+    "Added: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinzugefügt: %@"
+          }
+        }
+      }
+    },
+    "Adds %lldd%lld to this hero's next damage or healing roll." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügt dem nächsten Schadens- oder Heilwurf dieses Helden %lldW%lld hinzu."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Adds %1$lldd%2$lld to this hero's next damage or healing roll."
+          }
+        }
+      }
+    },
+    "Adds +%lld to every damage and healing dice roll." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gibt +%lld auf jeden Schadens- und Heilwurf."
+          }
+        }
+      }
+    },
+    "All enemies" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Gegner"
+          }
+        }
+      }
+    },
+    "Allow asking in reverse" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auch umgekehrt abfragen"
+          }
+        }
+      }
+    },
+    "alone" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "allein"
+          }
+        }
+      }
+    },
+    "Also quizzes Answer → Question for reversible cards" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragt bei umkehrbaren Karten auch Antwort → Frage ab"
+          }
+        }
+      }
+    },
+    "answer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwort"
+          }
+        }
+      }
+    },
+    "Answer a card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Karte beantworten"
+          }
+        }
+      }
+    },
+    "Answer text" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antworttext"
+          }
+        }
+      }
+    },
+    "Anyone" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
+          }
+        }
+      }
+    },
+    "Armor" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rüstung"
+          }
+        }
+      }
+    },
+    "armor −%lld per hit on %@ for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rüstung −%1$lld pro Treffer für %2$@, %3$lld Runden lang"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "armor −%1$lld per hit on %2$@ for %3$lld rounds"
+          }
+        }
+      }
+    },
+    "Ask cards both ways" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karten in beide Richtungen abfragen"
+          }
+        }
+      }
+    },
+    "at most %lld monsters standing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "höchstens %lld Monster stehen"
+          }
+        }
+      }
+    },
+    "at most %lld× per fight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "höchstens %lld× pro Kampf"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurück"
+          }
+        }
+      }
+    },
+    "Back to menu" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurück zum Menü"
+          }
+        }
+      }
+    },
+    "Back to the current screen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurück zum aktuellen Bildschirm"
+          }
+        }
+      }
+    },
+    "Bag" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasche"
+          }
+        }
+      }
+    },
+    "Basic attack" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grundangriff"
+          }
+        }
+      }
+    },
+    "Basic magic attack (ignores block)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magischer Grundangriff (ignoriert Block)"
+          }
+        }
+      }
+    },
+    "Begin" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beginnen"
+          }
+        }
+      }
+    },
+    "below %@ HP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unter %@ LP"
+          }
+        }
+      }
+    },
+    "Bestiary" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestiarium"
+          }
+        }
+      }
+    },
+    "Block %lld per hit for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block %lld pro Treffer für %lld Runden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Block %1$lld per hit for %2$lld rounds"
+          }
+        }
+      }
+    },
+    "Bonus Dice" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonuswürfel"
+          }
+        }
+      }
+    },
+    "Boss" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boss"
+          }
+        }
+      }
+    },
+    "Both heroes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beide Helden"
+          }
+        }
+      }
+    },
+    "Button clicks (other sounds are off for now)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastenklicks (andere Klänge sind vorerst aus)."
+          }
+        }
+      }
+    },
+    "Button clicks (other sounds are off for now). Follows the silent switch." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastenklicks (andere Klänge sind vorerst aus). Folgt dem Stummschalter."
+          }
+        }
+      }
+    },
+    "Camera" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
+          }
+        }
+      }
+    },
+    "Campfire" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagerfeuer"
+          }
+        }
+      }
+    },
+    "Can't save yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nicht speicherbar"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "card \"%@\": %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte „%1$@“: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "card \"%1$@\": %2$@"
+          }
+        }
+      }
+    },
+    "card \"%@\": %@ color \"%@\" is not #RRGGBB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte „%1$@“: Farbe „%3$@“ (%2$@) ist nicht #RRGGBB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "card \"%1$@\": %2$@ color \"%3$@\" is not #RRGGBB"
+          }
+        }
+      }
+    },
+    "card \"%@\": %@ image \"%@\" not found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte „%1$@“: Bild „%3$@“ (%2$@) nicht gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "card \"%1$@\": %2$@ image \"%3$@\" not found"
+          }
+        }
+      }
+    },
+    "card \"%@\": duplicate id" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte „%@“: doppelte ID"
+          }
+        }
+      }
+    },
+    "Change skills and gear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertigkeiten und Ausrüstung ändern"
+          }
+        }
+      }
+    },
+    "Charge" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufladung"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        }
+      }
+    },
+    "Combat & Learning" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kampf & Lernen"
+          }
+        }
+      }
+    },
+    "Content failed to load" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhalte konnten nicht geladen werden"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        }
+      }
+    },
+    "Correct answer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richtige Antwort"
+          }
+        }
+      }
+    },
+    "Correct answer is empty." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die richtige Antwort ist leer."
+          }
+        }
+      }
+    },
+    "Costs %lld action points" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kostet %lld Aktionspunkte"
+          }
+        }
+      }
+    },
+    "Costs 1 action point" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kostet 1 Aktionspunkt"
+          }
+        }
+      }
+    },
+    "Counts this die twice" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zählt diesen Würfel doppelt"
+          }
+        }
+      }
+    },
+    "Create" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellen"
+          }
+        }
+      }
+    },
+    "Damage Up" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaden erhöht"
+          }
+        }
+      }
+    },
+    "Deal %@ damage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Schaden verursachen"
+          }
+        }
+      }
+    },
+    "Deal %@ magic damage (ignores armor)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Magieschaden verursachen (ignoriert Rüstung)"
+          }
+        }
+      }
+    },
+    "Deals %lld less damage per hit." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verursacht %lld Schaden weniger pro Treffer."
+          }
+        }
+      }
+    },
+    "Deals %lld less on every damage roll." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verursacht bei jedem Schadenswurf %lld weniger."
+          }
+        }
+      }
+    },
+    "Deck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stapel"
+          }
+        }
+      }
+    },
+    "Deck name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name des Stapels"
+          }
+        }
+      }
+    },
+    "Decks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stapel"
+          }
+        }
+      }
+    },
+    "Defeat" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niederlage"
+          }
+        }
+      }
+    },
+    "DEFEAT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NIEDERLAGE"
+          }
+        }
+      }
+    },
+    "Defeated by %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besiegt von %@"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
+        }
+      }
+    },
+    "Delete \"%@\"?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ löschen?"
+          }
+        }
+      }
+    },
+    "Delete Card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte löschen"
+          }
+        }
+      }
+    },
+    "Delete Deck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stapel löschen"
+          }
+        }
+      }
+    },
+    "Die sticker" : {
+
+    },
+    "Drawn %@× as often as an unseen card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird %@-mal so oft gezogen wie eine neue Karte"
+          }
+        }
+      }
+    },
+    "Drink %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ trinken"
+          }
+        }
+      }
+    },
+    "each hero" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jeden Helden"
+          }
+        }
+      }
+    },
+    "Each hit on %@ deals %lld less damage until their next turn." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Each hit on %1$@ deals %2$lld less damage until their next turn."
+          }
+        }
+      }
+    },
+    "Each hit on %@ deals %lld less damage." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeder Treffer auf %1$@ verursacht %2$lld Schaden weniger."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Each hit on %1$@ deals %2$lld less damage."
+          }
+        }
+      }
+    },
+    "Each hit on the party deals %lld less damage, all run." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeder Treffer auf die Gruppe verursacht %lld Schaden weniger, den ganzen Durchlauf."
+          }
+        }
+      }
+    },
+    "Each hit on the party deals %lld less damage." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeder Treffer auf die Gruppe verursacht %lld Schaden weniger."
+          }
+        }
+      }
+    },
+    "Edit Card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte bearbeiten"
+          }
+        }
+      }
+    },
+    "Effects" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effekte"
+          }
+        }
+      }
+    },
+    "Effects volume" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effektlautstärke"
+          }
+        }
+      }
+    },
+    "Elite" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elite"
+          }
+        }
+      }
+    },
+    "Empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leer"
+          }
+        }
+      }
+    },
+    "Empty %@ slot" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leerer Platz: %@"
+          }
+        }
+      }
+    },
+    "Empty skill slot" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leerer Fertigkeitsplatz"
+          }
+        }
+      }
+    },
+    "Empty slots are filled with correct answers from other cards in this deck when the card is shown." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leere Plätze werden beim Anzeigen der Karte mit richtigen Antworten anderer Karten dieses Stapels gefüllt."
+          }
+        }
+      }
+    },
+    "End the party's turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Zug der Gruppe beenden"
+          }
+        }
+      }
+    },
+    "End turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zug beenden"
+          }
+        }
+      }
+    },
+    "Enemy" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gegner"
+          }
+        }
+      }
+    },
+    "Equip %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ausrüsten"
+          }
+        }
+      }
+    },
+    "Event" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ereignis"
+          }
+        }
+      }
+    },
+    "every monster" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jedes Monster"
+          }
+        }
+      }
+    },
+    "Every skill in a fight is cast by answering one of your flashcards. Write your own deck, import one, or start with the sample decks." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jede Fertigkeit im Kampf wirkst du, indem du eine deiner Lernkarten beantwortest. Schreib einen eigenen Stapel, importiere einen oder beginne mit den Beispielstapeln."
+          }
+        }
+      }
+    },
+    "Explanation shown after answering (optional)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erklärung nach dem Antworten (optional)"
+          }
+        }
+      }
+    },
+    "Face %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seite %lld"
+          }
+        }
+      }
+    },
+    "Fallen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gefallen"
+          }
+        }
+      }
+    },
+    "Fast mode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schnellmodus"
+          }
+        }
+      }
+    },
+    "Fast mode off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schnellmodus aus"
+          }
+        }
+      }
+    },
+    "Fast mode on" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schnellmodus an"
+          }
+        }
+      }
+    },
+    "Fight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kampf"
+          }
+        }
+      }
+    },
+    "Forward: %lld%% · %lld/%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorwärts: %lld %% · %lld/%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Forward: %1$lld%% · %2$lld/%3$lld"
+          }
+        }
+      }
+    },
+    "Forward: Not answered yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorwärts: Noch nicht beantwortet"
+          }
+        }
+      }
+    },
+    "Game" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiel"
+          }
+        }
+      }
+    },
+    "Gear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausrüstung"
+          }
+        }
+      }
+    },
+    "Give %@ to %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ an %2$@ geben"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Give %1$@ to %2$@"
+          }
+        }
+      }
+    },
+    "Glossary" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glossar"
+          }
+        }
+      }
+    },
+    "Gold, potions, relics and progress are lost. Card stats are kept." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gold, Tränke, Relikte und Fortschritt gehen verloren. Kartenstatistiken bleiben erhalten."
+          }
+        }
+      }
+    },
+    "Haggle: answer a card for a discount" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feilschen: Beantworte eine Karte für einen Rabatt"
+          }
+        }
+      }
+    },
+    "Haptics" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptik"
+          }
+        }
+      }
+    },
+    "Heal %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ heilen"
+          }
+        }
+      }
+    },
+    "heals %@ %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "heilt %1$@ um %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "heals %1$@ %2$@"
+          }
+        }
+      }
+    },
+    "Heals one hero for %lld HP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heilt einen Helden um %lld LP"
+          }
+        }
+      }
+    },
+    "Heals you %lld HP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heilt dich um %lld LP"
+          }
+        }
+      }
+    },
+    "Health" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leben"
+          }
+        }
+      }
+    },
+    "Hero" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Held"
+          }
+        }
+      }
+    },
+    "Hex color #RRGGBB (optional)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hex-Farbe #RRGGBB (optional)"
+          }
+        }
+      }
+    },
+    "Hide Hint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipp ausblenden"
+          }
+        }
+      }
+    },
+    "Hint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipp"
+          }
+        }
+      }
+    },
+    "Hint behind light-bulb button (optional)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipp hinter dem Glühbirnen-Knopf (optional)"
+          }
+        }
+      }
+    },
+    "History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf"
+          }
+        }
+      }
+    },
+    "Import" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importieren"
+          }
+        }
+      }
+    },
+    "Importing Decks…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stapel werden importiert …"
+          }
+        }
+      }
+    },
+    "Increases each hero's maximum HP by +%lld." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhöht die maximalen LP jedes Helden um +%lld."
+          }
+        }
+      }
+    },
+    "Its content or decks no longer exist. Start a new run." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seine Inhalte oder Stapel gibt es nicht mehr. Starte einen neuen Durchlauf."
+          }
+        }
+      }
+    },
+    "itself" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sich selbst"
+          }
+        }
+      }
+    },
+    "Keep the right answer and its explanation on screen until you tap Continue." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die richtige Antwort und ihre Erklärung bleiben sichtbar, bis du auf Weiter tippst."
+          }
+        }
+      }
+    },
+    "Know your cards. Slay the dragon." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenne deine Karten. Bezwinge den Drachen."
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache"
+          }
+        }
+      }
+    },
+    "Learn %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lernen"
+          }
+        }
+      }
+    },
+    "Learn it, keep it unequipped" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lernen, aber nicht ausrüsten"
+          }
+        }
+      }
+    },
+    "Leave fight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kampf verlassen"
+          }
+        }
+      }
+    },
+    "Leave shop" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden verlassen"
+          }
+        }
+      }
+    },
+    "Level %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stufe %lld"
+          }
+        }
+      }
+    },
+    "Level %lld, plus %lld experience" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stufe %lld, plus %lld Erfahrung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Level %1$lld, plus %2$lld experience"
+          }
+        }
+      }
+    },
+    "LEVEL UP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "STUFENAUFSTIEG"
+          }
+        }
+      }
+    },
+    "Look at the map" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte ansehen"
+          }
+        }
+      }
+    },
+    "Loses the next %lld turn(s)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verliert die nächsten %lld Züge."
+          }
+        }
+      }
+    },
+    "Magic" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magie"
+          }
+        }
+      }
+    },
+    "Meet it in a fight to learn more." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Triff es im Kampf, um mehr zu erfahren."
+          }
+        }
+      }
+    },
+    "Moves" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Züge"
+          }
+        }
+      }
+    },
+    "Needs %lld more" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braucht %lld mehr"
+          }
+        }
+      }
+    },
+    "Needs %lld more cards before this deck can be used in a run." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braucht noch %lld Karten, bevor dieser Stapel in einem Durchlauf genutzt werden kann."
+          }
+        }
+      }
+    },
+    "Needs 1 more card before this deck can be used in a run." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braucht noch 1 Karte, bevor dieser Stapel in einem Durchlauf genutzt werden kann."
+          }
+        }
+      }
+    },
+    "Needs a deck with %lld+ cards" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braucht einen Stapel mit mindestens %lld Karten"
+          }
+        }
+      }
+    },
+    "New Card" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Karte"
+          }
+        }
+      }
+    },
+    "New Deck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuer Stapel"
+          }
+        }
+      }
+    },
+    "New Run" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuer Durchlauf"
+          }
+        }
+      }
+    },
+    "New skill" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Fertigkeit"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als Nächstes"
+          }
+        }
+      }
+    },
+    "Next: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als Nächstes: %@"
+          }
+        }
+      }
+    },
+    "No active buffs or debuffs." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine aktiven Verstärkungen oder Schwächungen."
+          }
+        }
+      }
+    },
+    "No deck files found." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Stapeldateien gefunden."
+          }
+        }
+      }
+    },
+    "No deck has %lld+ cards yet. Add one in Decks." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch kein Stapel hat mindestens %lld Karten. Füge unter Stapel einen hinzu."
+          }
+        }
+      }
+    },
+    "No decks yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Stapel"
+          }
+        }
+      }
+    },
+    "No finished runs yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine beendeten Durchläufe"
+          }
+        }
+      }
+    },
+    "No finished runs yet." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine beendeten Durchläufe."
+          }
+        }
+      }
+    },
+    "None" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine"
+          }
+        }
+      }
+    },
+    "None of these" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine davon"
+          }
+        }
+      }
+    },
+    "Normal" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        }
+      }
+    },
+    "not already active" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nicht schon aktiv"
+          }
+        }
+      }
+    },
+    "Not answered yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nicht beantwortet"
+          }
+        }
+      }
+    },
+    "Not found yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nicht gefunden"
+          }
+        }
+      }
+    },
+    "Not on your road" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht auf deinem Weg"
+          }
+        }
+      }
+    },
+    "Off: a right answer moves on immediately." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus: Nach einer richtigen Antwort geht es sofort weiter."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "once per fight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "einmal pro Kampf"
+          }
+        }
+      }
+    },
+    "One enemy" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Gegner"
+          }
+        }
+      }
+    },
+    "One hero" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Held"
+          }
+        }
+      }
+    },
+    "Only when no Shield Wall is up" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur wenn kein Schildwall steht"
+          }
+        }
+      }
+    },
+    "Open bag" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasche öffnen"
+          }
+        }
+      }
+    },
+    "Party" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppe"
+          }
+        }
+      }
+    },
+    "Pause on right answers" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause bei richtigen Antworten"
+          }
+        }
+      }
+    },
+    "Pause on wrong answers" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause bei falschen Antworten"
+          }
+        }
+      }
+    },
+    "Photo Library" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotomediathek"
+          }
+        }
+      }
+    },
+    "Pick at least one deck" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle mindestens einen Stapel"
+          }
+        }
+      }
+    },
+    "Pick two heroes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle zwei Helden"
+          }
+        }
+      }
+    },
+    "Potions" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tränke"
+          }
+        }
+      }
+    },
+    "Preparing files…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dateien werden vorbereitet …"
+          }
+        }
+      }
+    },
+    "Prompt above question (e.g. Was ist das?)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufforderung über der Frage (z. B. Was ist das?)"
+          }
+        }
+      }
+    },
+    "question" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage"
+          }
+        }
+      }
+    },
+    "Question" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage"
+          }
+        }
+      }
+    },
+    "Question is empty." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Frage ist leer."
+          }
+        }
+      }
+    },
+    "Question text" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragetext"
+          }
+        }
+      }
+    },
+    "Raise a face" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Seite erhöhen"
+          }
+        }
+      }
+    },
+    "Recharges for %lld turns" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lädt %lld Züge lang auf"
+          }
+        }
+      }
+    },
+    "Recharging: ready in %lld turns" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lädt auf: bereit in %lld Zügen"
+          }
+        }
+      }
+    },
+    "Reduces all incoming enemy attack damage by %lld." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verringert jeden Schaden durch gegnerische Angriffe um %lld."
+          }
+        }
+      }
+    },
+    "Relic" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relikt"
+          }
+        }
+      }
+    },
+    "Relics" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relikte"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen"
+          }
+        }
+      }
+    },
+    "Replace %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ersetzen"
+          }
+        }
+      }
+    },
+    "Replaces your saved run" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ersetzt deinen gespeicherten Durchlauf"
+          }
+        }
+      }
+    },
+    "Reset stats" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistik zurücksetzen"
+          }
+        }
+      }
+    },
+    "Reset Stats" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistik zurücksetzen"
+          }
+        }
+      }
+    },
+    "resource" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ressource"
+          }
+        }
+      }
+    },
+    "Rest" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rasten"
+          }
+        }
+      }
+    },
+    "Resume your journey" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setze deine Reise fort"
+          }
+        }
+      }
+    },
+    "Reverse: %lld%% · %lld/%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umgekehrt: %lld %% · %lld/%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reverse: %1$lld%% · %2$lld/%3$lld"
+          }
+        }
+      }
+    },
+    "Reward" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belohnung"
+          }
+        }
+      }
+    },
+    "Round %lld, enemies' turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runde %lld, Zug der Gegner"
+          }
+        }
+      }
+    },
+    "Round %lld, your turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runde %lld, dein Zug"
+          }
+        }
+      }
+    },
+    "Rules — checked first, in order" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regeln – zuerst geprüft, der Reihe nach"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichern"
+          }
+        }
+      }
+    },
+    "Self" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selbst"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        }
+      }
+    },
+    "Settings only change how the game looks, sounds and paces itself — never its balance." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen ändern nur, wie das Spiel aussieht, klingt und wie schnell es läuft – nie seine Balance."
+          }
+        }
+      }
+    },
+    "SF Symbol (optional)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SF Symbol (optional)"
+          }
+        }
+      }
+    },
+    "Shield Wall" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schildwall"
+          }
+        }
+      }
+    },
+    "Shop" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden"
+          }
+        }
+      }
+    },
+    "Shorter pauses, faster dice, and an enemy's attack on both heroes is thrown at once." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kürzere Pausen, schnellere Würfel, und der Angriff eines Gegners auf beide Helden wird auf einmal geworfen."
+          }
+        }
+      }
+    },
+    "Shows details" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigt Details"
+          }
+        }
+      }
+    },
+    "Skill scroll: learn a new skill" : {
+
+    },
+    "Skills" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertigkeiten"
+          }
+        }
+      }
+    },
+    "Skip" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überspringen"
+          }
+        }
+      }
+    },
+    "Sleeps through its next %lld turn(s) and can't strike back after a wrong answer." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verschläft die nächsten %lld Züge und kann nach einer falschen Antwort nicht zurückschlagen."
+          }
+        }
+      }
+    },
+    "Sound & Feel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klang & Gefühl"
+          }
+        }
+      }
+    },
+    "Sound effects" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soundeffekte"
+          }
+        }
+      }
+    },
+    "Start fights with +%lld mana" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kämpfe mit +%lld Mana beginnen"
+          }
+        }
+      }
+    },
+    "Start run" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durchlauf starten"
+          }
+        }
+      }
+    },
+    "Step %lld/%lld · ♥ %lld · %lld gold" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schritt %lld/%lld · ♥ %lld · %lld Gold"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Step %1$lld/%2$lld · ♥ %3$lld · %4$lld gold"
+          }
+        }
+      }
+    },
+    "Strength Potion / gear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stärketrank / Ausrüstung"
+          }
+        }
+      }
+    },
+    "Study" : {
+
+    },
+    "Study details (optional)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lerndetails (optional)"
+          }
+        }
+      }
+    },
+    "Study RPG" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Study RPG"
+          }
+        }
+      }
+    },
+    "Stun: skips %lld turn(s)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betäubung: setzt %lld Züge aus"
+          }
+        }
+      }
+    },
+    "Stunned" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betäubt"
+          }
+        }
+      }
+    },
+    "stuns %@: loses %lld turns" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "betäubt %1$@: %2$lld Züge verloren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "stuns %1$@: loses %2$lld turns"
+          }
+        }
+      }
+    },
+    "stuns %@: loses 1 turn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "betäubt %@: 1 Zug verloren"
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        }
+      }
+    },
+    "System follows your device's language." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System folgt der Sprache deines Geräts."
+          }
+        }
+      }
+    },
+    "Take off %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ablegen"
+          }
+        }
+      }
+    },
+    "Takes %lld more damage per hit." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erleidet %lld Schaden mehr pro Treffer."
+          }
+        }
+      }
+    },
+    "Test Fight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testkampf"
+          }
+        }
+      }
+    },
+    "Test fights carry one of each potion; no relics, gear or training." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testkämpfe haben je einen Trank jeder Sorte; keine Relikte, Ausrüstung oder Training."
+          }
+        }
+      }
+    },
+    "the most hurt hero" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "den am stärksten verletzten Helden"
+          }
+        }
+      }
+    },
+    "the most hurt monster" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das am stärksten verletzte Monster"
+          }
+        }
+      }
+    },
+    "The party takes %lld less damage per hit for %lld rounds." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Gruppe erleidet %2$lld Runden lang %1$lld Schaden weniger pro Treffer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The party takes %1$lld less damage per hit for %2$lld rounds."
+          }
+        }
+      }
+    },
+    "then waits %lld moves" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wartet dann %lld Züge"
+          }
+        }
+      }
+    },
+    "then waits 1 move" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wartet dann 1 Zug"
+          }
+        }
+      }
+    },
+    "This saved run can't be continued" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser gespeicherte Durchlauf kann nicht fortgesetzt werden"
+          }
+        }
+      }
+    },
+    "This will permanently delete \"%@\" and its %lld cards." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch werden „%1$@“ und seine %2$lld Karten endgültig gelöscht."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This will permanently delete \"%1$@\" and its %2$lld cards."
+          }
+        }
+      }
+    },
+    "This will permanently delete this deck and its %lld cards." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch werden dieser Stapel und seine %lld Karten endgültig gelöscht."
+          }
+        }
+      }
+    },
+    "This will permanently delete this deck." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch wird dieser Stapel endgültig gelöscht."
+          }
+        }
+      }
+    },
+    "Train" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trainieren"
+          }
+        }
+      }
+    },
+    "Training" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Training"
+          }
+        }
+      }
+    },
+    "Training: +%lld on every damage roll" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Training: +%lld auf jeden Schadenswurf"
+          }
+        }
+      }
+    },
+    "Travel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reisen"
+          }
+        }
+      }
+    },
+    "Travel here" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hierhin reisen"
+          }
+        }
+      }
+    },
+    "Trinket" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schmuck"
+          }
+        }
+      }
+    },
+    "Two heroes of different classes share every flashcard you answer." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwei Helden verschiedener Klassen teilen sich jede Lernkarte, die du beantwortest."
+          }
+        }
+      }
+    },
+    "Two heroes, one map, one dragon" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwei Helden, eine Karte, ein Drache"
+          }
+        }
+      }
+    },
+    "Undiscovered" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unentdeckt"
+          }
+        }
+      }
+    },
+    "Unequip %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ablegen"
+          }
+        }
+      }
+    },
+    "Untitled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohne Titel"
+          }
+        }
+      }
+    },
+    "Updated: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiert: %@"
+          }
+        }
+      }
+    },
+    "Upgrade %@" : {
+
+    },
+    "Victory" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sieg"
+          }
+        }
+      }
+    },
+    "VICTORY" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIEG"
+          }
+        }
+      }
+    },
+    "Vulnerable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwundbar"
+          }
+        }
+      }
+    },
+    "vulnerable +%lld on %@ for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwundbar +%1$lld für %2$@, %3$lld Runden lang"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "vulnerable +%1$lld on %2$@ for %3$lld rounds"
+          }
+        }
+      }
+    },
+    "Vulnerable: +%lld damage taken for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwundbar: +%lld erlittener Schaden für %lld Runden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Vulnerable: +%1$lld damage taken for %2$lld rounds"
+          }
+        }
+      }
+    },
+    "Warrior's Shield Wall skill" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schildwall-Fertigkeit des Kriegers"
+          }
+        }
+      }
+    },
+    "weaken −%lld on %@ for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwächung −%1$lld für %2$@, %3$lld Runden lang"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "weaken −%1$lld on %2$@ for %3$lld rounds"
+          }
+        }
+      }
+    },
+    "Weaken: −%lld damage dealt for %lld rounds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwächung: −%lld verursachter Schaden für %lld Runden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Weaken: −%1$lld damage dealt for %2$lld rounds"
+          }
+        }
+      }
+    },
+    "Weakened" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschwächt"
+          }
+        }
+      }
+    },
+    "Weakest First" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwächste zuerst"
+          }
+        }
+      }
+    },
+    "Weapon" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waffe"
+          }
+        }
+      }
+    },
+    "Wear %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ anlegen"
+          }
+        }
+      }
+    },
+    "When %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn %@"
+          }
+        }
+      }
+    },
+    "Whenever it can" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wann immer möglich"
+          }
+        }
+      }
+    },
+    "Which one matches?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was passt?"
+          }
+        }
+      }
+    },
+    "Write or import your flashcards" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreibe oder importiere deine Lernkarten"
+          }
+        }
+      }
+    },
+    "Wrong answer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falsche Antwort"
+          }
+        }
+      }
+    },
+    "wrong answer %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "falsche Antwort %lld"
+          }
+        }
+      }
+    },
+    "Wrong answer %lld duplicates the correct answer." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falsche Antwort %lld wiederholt die richtige Antwort."
+          }
+        }
+      }
+    },
+    "Wrong answer %lld is empty." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falsche Antwort %lld ist leer."
+          }
+        }
+      }
+    },
+    "Wrong answers (optional)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falsche Antworten (optional)"
+          }
+        }
+      }
+    },
+    "Your Order" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Reihenfolge"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

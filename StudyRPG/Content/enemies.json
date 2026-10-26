@@ -1,0 +1,484 @@
+{
+  "enemies": [
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "spriteId": "goblin",
+      "spriteHeight": 118,
+      "tier": "normal",
+      "baseHP": 7,
+      "hpDice": {
+        "count": 2,
+        "flat": 2,
+        "sides": 4
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": -1
+      },
+      "attackEvery": 1,
+      "goldReward": 12,
+      "xp": 5,
+      "skills": [
+        {
+          "id": "rally",
+          "name": "Rally",
+          "icon": "megaphone.fill",
+          "target": "allies",
+          "effects": [
+            {
+              "type": "damageBuff",
+              "amount": 1,
+              "rounds": 2
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "attack"
+      ],
+      "rules": [
+        {
+          "skill": "rally",
+          "when": {
+            "minAlliesAlive": 2,
+            "unlessActive": true
+          },
+          "cooldown": 2
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "spriteId": "skeleton",
+      "spriteHeight": 135,
+      "tier": "normal",
+      "baseHP": 8,
+      "hpDice": {
+        "count": 2,
+        "flat": 3,
+        "sides": 4
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": -1
+      },
+      "attackEvery": 1,
+      "goldReward": 13,
+      "xp": 6,
+      "skills": [
+        {
+          "id": "bone_guard",
+          "name": "Bone Guard",
+          "icon": "shield.lefthalf.filled",
+          "target": "self",
+          "effects": [
+            {
+              "type": "armor",
+              "amount": 1,
+              "rounds": 2
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "attack"
+      ],
+      "rules": [
+        {
+          "skill": "bone_guard",
+          "when": {
+            "selfHPBelow": 0.5
+          },
+          "maxUses": 1
+        }
+      ]
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "spriteId": "wolf",
+      "spriteHeight": 120,
+      "tier": "normal",
+      "baseHP": 8,
+      "hpDice": {
+        "count": 2,
+        "flat": 3,
+        "sides": 4
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": -1
+      },
+      "attackEvery": 1,
+      "goldReward": 13,
+      "xp": 6,
+      "skills": [
+        {
+          "id": "go_for_the_throat",
+          "name": "Go for the Throat",
+          "icon": "pawprint.fill",
+          "target": "hero",
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 1
+              }
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "attack"
+      ],
+      "rules": [
+        {
+          "skill": "go_for_the_throat",
+          "when": {
+            "heroHPBelow": 0.35
+          },
+          "cooldown": 1
+        }
+      ]
+    },
+    {
+      "id": "spider",
+      "name": "Small Spider",
+      "spriteId": "spider",
+      "spriteHeight": 85,
+      "tier": "normal",
+      "baseHP": 3,
+      "hpDice": {
+        "count": 1,
+        "flat": 1,
+        "sides": 4
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": -2
+      },
+      "attackEvery": 1,
+      "goldReward": 4,
+      "xp": 2,
+      "movePattern": [
+        "attack"
+      ]
+    },
+    {
+      "id": "troll",
+      "name": "Mountain Troll",
+      "spriteId": "troll",
+      "spriteHeight": 150,
+      "tier": "elite",
+      "baseHP": 16,
+      "hpDice": {
+        "count": 3,
+        "flat": 5,
+        "sides": 6
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": 0
+      },
+      "attackEvery": 1,
+      "goldReward": 28,
+      "xp": 20,
+      "skills": [
+        {
+          "id": "stone_skin",
+          "name": "Stone Skin",
+          "icon": "shield.fill",
+          "target": "self",
+          "effects": [
+            {
+              "type": "armor",
+              "amount": 1,
+              "rounds": 3
+            }
+          ]
+        },
+        {
+          "id": "regenerate",
+          "name": "Regenerate",
+          "icon": "cross.case.fill",
+          "target": "self",
+          "effects": [
+            {
+              "type": "heal",
+              "dice": {
+                "count": 1,
+                "flat": 1
+              }
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "attack",
+        "stone_skin",
+        "regenerate"
+      ],
+      "rules": [
+        {
+          "skill": "regenerate",
+          "when": {
+            "selfHPBelow": 0.35
+          },
+          "cooldown": 2
+        }
+      ]
+    },
+    {
+      "id": "witch",
+      "name": "Bog Witch",
+      "spriteId": "witch",
+      "spriteHeight": 138,
+      "tier": "elite",
+      "baseHP": 16,
+      "hpDice": {
+        "count": 3,
+        "flat": 5,
+        "sides": 6
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": 0
+      },
+      "attackDamageType": "magic",
+      "attackEvery": 1,
+      "goldReward": 30,
+      "xp": 22,
+      "skills": [
+        {
+          "id": "bog_brew",
+          "name": "Bog Brew",
+          "icon": "cross.vial.fill",
+          "target": "ally",
+          "effects": [
+            {
+              "type": "heal",
+              "dice": {
+                "count": 1,
+                "flat": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "mire_ward",
+          "name": "Mire Ward",
+          "icon": "shield.fill",
+          "target": "self",
+          "effects": [
+            {
+              "type": "armor",
+              "amount": 1,
+              "rounds": 2
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "attack",
+        "bog_brew",
+        "mire_ward",
+        "bog_brew"
+      ],
+      "rules": [
+        {
+          "skill": "bog_brew",
+          "when": {
+            "allyHPBelow": 0.4
+          },
+          "cooldown": 1
+        }
+      ]
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "spriteId": "dragon",
+      "spriteHeight": 168,
+      "tier": "boss",
+      "baseHP": 28,
+      "hpDice": {
+        "count": 5,
+        "flat": 10,
+        "sides": 6
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": 1
+      },
+      "attackEvery": 1,
+      "goldReward": 100,
+      "xp": 50,
+      "skills": [
+        {
+          "id": "fire_breath",
+          "name": "Fire Breath",
+          "icon": "flame.fill",
+          "target": "heroes",
+          "vfx": "fire",
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 1
+              },
+              "damageType": "magic"
+            }
+          ]
+        },
+        {
+          "id": "dragon_scales",
+          "name": "Dragon Scales",
+          "icon": "shield.fill",
+          "target": "self",
+          "effects": [
+            {
+              "type": "armor",
+              "amount": 1,
+              "rounds": 2
+            }
+          ]
+        },
+        {
+          "id": "devour",
+          "name": "Devour",
+          "icon": "cross.case.fill",
+          "target": "self",
+          "effects": [
+            {
+              "type": "heal",
+              "dice": {
+                "count": 1,
+                "flat": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "terrifying_roar",
+          "name": "Terrifying Roar",
+          "icon": "speaker.wave.3.fill",
+          "target": "heroes",
+          "effects": [
+            {
+              "type": "stun",
+              "amount": 1,
+              "target": "hero"
+            },
+            {
+              "type": "weaken",
+              "amount": 1,
+              "rounds": 2
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "fire_breath",
+        "attack",
+        "dragon_scales",
+        "fire_breath",
+        "devour"
+      ],
+      "rules": [
+        {
+          "skill": "terrifying_roar",
+          "when": {
+            "selfHPBelow": 0.35
+          },
+          "maxUses": 1
+        }
+      ]
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "spriteId": "sentinel",
+      "spriteHeight": 132,
+      "tier": "normal",
+      "baseHP": 20,
+      "hpDice": {
+        "count": 3,
+        "flat": 9,
+        "sides": 6
+      },
+      "attackDice": {
+        "count": 1,
+        "flat": 1
+      },
+      "attackVfx": "laser",
+      "attackEvery": 1,
+      "goldReward": 14,
+      "xp": 9,
+      "skills": [
+        {
+          "id": "laser_beam",
+          "name": "Laser Beam",
+          "icon": "light.beacon.max.fill",
+          "target": "heroes",
+          "vfx": "laser",
+          "effects": [
+            {
+              "type": "damage",
+              "dice": {
+                "count": 1,
+                "flat": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "target_lock",
+          "name": "Target Lock",
+          "icon": "scope",
+          "target": "hero",
+          "effects": [
+            {
+              "type": "vulnerable",
+              "amount": 2,
+              "rounds": 2
+            }
+          ]
+        },
+        {
+          "id": "overcharge",
+          "name": "Overcharge",
+          "icon": "bolt.fill",
+          "target": "self",
+          "effects": [
+            {
+              "type": "damageBuff",
+              "amount": 2,
+              "rounds": 2
+            }
+          ]
+        }
+      ],
+      "movePattern": [
+        "laser_beam",
+        "attack",
+        "target_lock",
+        "attack",
+        "overcharge"
+      ],
+      "rules": [
+        {
+          "skill": "overcharge",
+          "when": {
+            "selfHPBelow": 0.4,
+            "unlessActive": true
+          },
+          "maxUses": 1
+        }
+      ]
+    }
+  ]
+}

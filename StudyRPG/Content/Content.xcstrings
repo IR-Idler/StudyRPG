@@ -1,0 +1,1942 @@
+{
+  "sourceLanguage" : "en",
+  "version" : "1.0",
+  "strings" : {
+    "25% of 80" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25 % von 80"
+          }
+        }
+      }
+    },
+    "A chest with a riddle carved into its lid." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Truhe mit einem Rätsel im Deckel."
+          }
+        }
+      }
+    },
+    "A fallen knight's pack lies by the road. Read the old inscription to claim it." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Bündel eines gefallenen Ritters liegt am Weg. Lies die alte Inschrift, um es zu nehmen."
+          }
+        }
+      }
+    },
+    "A forgotten shrine hums with old knowledge." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein vergessener Schrein summt vor altem Wissen."
+          }
+        }
+      }
+    },
+    "A glowing spring bubbles between the stones." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine leuchtende Quelle sprudelt zwischen den Steinen."
+          }
+        }
+      }
+    },
+    "A hooded stranger blocks the path with a riddle." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein vermummter Fremder versperrt mit einem Rätsel den Weg."
+          }
+        }
+      }
+    },
+    "A ruined library, one book still glowing." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine verfallene Bibliothek, ein Buch leuchtet noch."
+          }
+        }
+      }
+    },
+    "A weathered signpost, its words half worn away." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein verwitterter Wegweiser, die Worte halb verblasst."
+          }
+        }
+      }
+    },
+    "Alexandria" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alexandria"
+          }
+        }
+      }
+    },
+    "Amber" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bernstein"
+          }
+        }
+      }
+    },
+    "An overturned merchant cart blocks the road." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein umgestürzter Händlerkarren versperrt die Straße."
+          }
+        }
+      }
+    },
+    "Ankara" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ankara"
+          }
+        }
+      }
+    },
+    "Ankara has been the capital since 1923; Istanbul is the largest city." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ankara ist seit 1923 die Hauptstadt; Istanbul ist die größte Stadt."
+          }
+        }
+      }
+    },
+    "Argentina" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Argentinien"
+          }
+        }
+      }
+    },
+    "Attack" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angriff"
+          }
+        }
+      }
+    },
+    "Auckland" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auckland"
+          }
+        }
+      }
+    },
+    "Australia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Australien"
+          }
+        }
+      }
+    },
+    "Barcelona" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barcelona"
+          }
+        }
+      }
+    },
+    "Battle Cry" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlachtruf"
+          }
+        }
+      }
+    },
+    "Bergen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bergen"
+          }
+        }
+      }
+    },
+    "Berlin" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berlin"
+          }
+        }
+      }
+    },
+    "Berlin became the capital of reunified Germany in 1990." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berlin wurde 1990 Hauptstadt des wiedervereinigten Deutschlands."
+          }
+        }
+      }
+    },
+    "Bern" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bern"
+          }
+        }
+      }
+    },
+    "Bog Brew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moorgebräu"
+          }
+        }
+      }
+    },
+    "Bog Witch" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moorhexe"
+          }
+        }
+      }
+    },
+    "Bolt" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blitzschlag"
+          }
+        }
+      }
+    },
+    "Bone Guard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knochenwehr"
+          }
+        }
+      }
+    },
+    "Bonn" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonn"
+          }
+        }
+      }
+    },
+    "Bonn was the capital of West Germany until 1990." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonn war bis 1990 die Hauptstadt der Bundesrepublik."
+          }
+        }
+      }
+    },
+    "Brasília" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brasília"
+          }
+        }
+      }
+    },
+    "Brasília replaced Rio de Janeiro as the capital in 1960." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brasília löste 1960 Rio de Janeiro als Hauptstadt ab."
+          }
+        }
+      }
+    },
+    "Brazil" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brasilien"
+          }
+        }
+      }
+    },
+    "Buenos Aires" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buenos Aires"
+          }
+        }
+      }
+    },
+    "Busan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Busan"
+          }
+        }
+      }
+    },
+    "Cairo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kairo"
+          }
+        }
+      }
+    },
+    "Canada" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanada"
+          }
+        }
+      }
+    },
+    "Canberra" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canberra"
+          }
+        }
+      }
+    },
+    "Canberra was purpose-built as a compromise between rivals Sydney and Melbourne." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canberra wurde eigens als Kompromiss zwischen den Rivalen Sydney und Melbourne gebaut."
+          }
+        }
+      }
+    },
+    "Capital of…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauptstadt von …"
+          }
+        }
+      }
+    },
+    "Chain Lightning" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kettenblitz"
+          }
+        }
+      }
+    },
+    "Chainmail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kettenhemd"
+          }
+        }
+      }
+    },
+    "Christchurch" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Christchurch"
+          }
+        }
+      }
+    },
+    "Cleave" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spalten"
+          }
+        }
+      }
+    },
+    "Colors & Signs" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farben & Zeichen"
+          }
+        }
+      }
+    },
+    "Crimson" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karmesin"
+          }
+        }
+      }
+    },
+    "Crit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volltreffer"
+          }
+        }
+      }
+    },
+    "Crown" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krone"
+          }
+        }
+      }
+    },
+    "Córdoba" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Córdoba"
+          }
+        }
+      }
+    },
+    "Devour" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verschlingen"
+          }
+        }
+      }
+    },
+    "Doubling eight times: 2, 4, 8, 16, 32, 64, 128, 256." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achtmal verdoppeln: 2, 4, 8, 16, 32, 64, 128, 256."
+          }
+        }
+      }
+    },
+    "Dragon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drache"
+          }
+        }
+      }
+    },
+    "Dragon Scales" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drachenschuppen"
+          }
+        }
+      }
+    },
+    "Egypt" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ägypten"
+          }
+        }
+      }
+    },
+    "Ember Wand" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glutstab"
+          }
+        }
+      }
+    },
+    "Emerald" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smaragd"
+          }
+        }
+      }
+    },
+    "Empower" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stärken"
+          }
+        }
+      }
+    },
+    "Executioner's Axe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henkersaxt"
+          }
+        }
+      }
+    },
+    "Fire" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feuer"
+          }
+        }
+      }
+    },
+    "Fire Breath" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feueratem"
+          }
+        }
+      }
+    },
+    "Fireball" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feuerball"
+          }
+        }
+      }
+    },
+    "France" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frankreich"
+          }
+        }
+      }
+    },
+    "Frost Nova" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frostnova"
+          }
+        }
+      }
+    },
+    "Geneva" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genf"
+          }
+        }
+      }
+    },
+    "Germany" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deutschland"
+          }
+        }
+      }
+    },
+    "Giza" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizeh"
+          }
+        }
+      }
+    },
+    "Go for the Throat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An die Kehle"
+          }
+        }
+      }
+    },
+    "Goblin" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin"
+          }
+        }
+      }
+    },
+    "Ground Slam" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erdstoß"
+          }
+        }
+      }
+    },
+    "Guard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schutz"
+          }
+        }
+      }
+    },
+    "Heal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heilen"
+          }
+        }
+      }
+    },
+    "Healer's Charm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heileramulett"
+          }
+        }
+      }
+    },
+    "Health Potion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heiltrank"
+          }
+        }
+      }
+    },
+    "Heart Amulet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herzamulett"
+          }
+        }
+      }
+    },
+    "Heavy Strike" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wuchtschlag"
+          }
+        }
+      }
+    },
+    "Hex" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fluch"
+          }
+        }
+      }
+    },
+    "Ice Lance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eislanze"
+          }
+        }
+      }
+    },
+    "Intimidate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einschüchtern"
+          }
+        }
+      }
+    },
+    "Iron Shield" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eisenschild"
+          }
+        }
+      }
+    },
+    "Iron Sword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eisenschwert"
+          }
+        }
+      }
+    },
+    "Istanbul" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Istanbul"
+          }
+        }
+      }
+    },
+    "Italy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Italien"
+          }
+        }
+      }
+    },
+    "Its name means \"eastern capital\"." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Name bedeutet „östliche Hauptstadt“."
+          }
+        }
+      }
+    },
+    "Izmir" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izmir"
+          }
+        }
+      }
+    },
+    "Japan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japan"
+          }
+        }
+      }
+    },
+    "Kenya" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenia"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel"
+          }
+        }
+      }
+    },
+    "Kyoto" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyoto"
+          }
+        }
+      }
+    },
+    "Kyoto was the imperial capital until 1868; then the court moved to Edo, renamed Tokyo." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyoto war bis 1868 Kaiserstadt; dann zog der Hof nach Edo, das in Tokio umbenannt wurde."
+          }
+        }
+      }
+    },
+    "Laser Beam" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laserstrahl"
+          }
+        }
+      }
+    },
+    "Leaf" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blatt"
+          }
+        }
+      }
+    },
+    "Lightning" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blitz"
+          }
+        }
+      }
+    },
+    "Lucky Ring" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glücksring"
+          }
+        }
+      }
+    },
+    "Lyon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyon"
+          }
+        }
+      }
+    },
+    "Madrid" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Madrid"
+          }
+        }
+      }
+    },
+    "Magic Attack" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magieangriff"
+          }
+        }
+      }
+    },
+    "Mana" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mana"
+          }
+        }
+      }
+    },
+    "Mana Crystal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manakristall"
+          }
+        }
+      }
+    },
+    "Mana Potion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manatrank"
+          }
+        }
+      }
+    },
+    "Mana Surge" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manaschub"
+          }
+        }
+      }
+    },
+    "Marseille" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marseille"
+          }
+        }
+      }
+    },
+    "Melbourne" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melbourne"
+          }
+        }
+      }
+    },
+    "Mend" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flicken"
+          }
+        }
+      }
+    },
+    "Meteor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meteor"
+          }
+        }
+      }
+    },
+    "Milan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mailand"
+          }
+        }
+      }
+    },
+    "Mire Ward" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sumpfschutz"
+          }
+        }
+      }
+    },
+    "Mombasa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mombasa"
+          }
+        }
+      }
+    },
+    "Montreal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montreal"
+          }
+        }
+      }
+    },
+    "Mountain Troll" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bergtroll"
+          }
+        }
+      }
+    },
+    "Munich" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "München"
+          }
+        }
+      }
+    },
+    "Nairobi" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nairobi"
+          }
+        }
+      }
+    },
+    "Naples" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neapel"
+          }
+        }
+      }
+    },
+    "Neon Frontier" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neon-Grenzland"
+          }
+        }
+      }
+    },
+    "New Zealand" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuseeland"
+          }
+        }
+      }
+    },
+    "Night" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nacht"
+          }
+        }
+      }
+    },
+    "Norway" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Norwegen"
+          }
+        }
+      }
+    },
+    "Not the biggest city — a compromise between the two biggest." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht die größte Stadt – ein Kompromiss zwischen den beiden größten."
+          }
+        }
+      }
+    },
+    "Not the city on the Bosphorus." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht die Stadt am Bosporus."
+          }
+        }
+      }
+    },
+    "Oak Staff" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eichenstab"
+          }
+        }
+      }
+    },
+    "Osaka" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osaka"
+          }
+        }
+      }
+    },
+    "Oslo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oslo"
+          }
+        }
+      }
+    },
+    "Ottawa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottawa"
+          }
+        }
+      }
+    },
+    "Overcharge" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überladung"
+          }
+        }
+      }
+    },
+    "Padded Robe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gepolsterte Robe"
+          }
+        }
+      }
+    },
+    "Paris" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paris"
+          }
+        }
+      }
+    },
+    "Paris has been France's capital for most of the last thousand years." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paris ist seit fast tausend Jahren die Hauptstadt Frankreichs."
+          }
+        }
+      }
+    },
+    "Quick Math" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopfrechnen"
+          }
+        }
+      }
+    },
+    "Rally" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammeln"
+          }
+        }
+      }
+    },
+    "Regenerate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regenerieren"
+          }
+        }
+      }
+    },
+    "Rio de Janeiro" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rio de Janeiro"
+          }
+        }
+      }
+    },
+    "Rome" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rom"
+          }
+        }
+      }
+    },
+    "Sapphire" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saphir"
+          }
+        }
+      }
+    },
+    "Second Wind" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zweiter Atem"
+          }
+        }
+      }
+    },
+    "Sentinel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wächter"
+          }
+        }
+      }
+    },
+    "Seoul" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seoul"
+          }
+        }
+      }
+    },
+    "Seville" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sevilla"
+          }
+        }
+      }
+    },
+    "Shield Bash" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schildstoß"
+          }
+        }
+      }
+    },
+    "Shield Wall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schildwall"
+          }
+        }
+      }
+    },
+    "Skeleton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skelett"
+          }
+        }
+      }
+    },
+    "Small Spider" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleine Spinne"
+          }
+        }
+      }
+    },
+    "Snow" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schnee"
+          }
+        }
+      }
+    },
+    "Solve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löse"
+          }
+        }
+      }
+    },
+    "South Korea" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Südkorea"
+          }
+        }
+      }
+    },
+    "Spain" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanien"
+          }
+        }
+      }
+    },
+    "Spark" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funke"
+          }
+        }
+      }
+    },
+    "Starter deck" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startstapel"
+          }
+        }
+      }
+    },
+    "Starter deck · mental arithmetic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startstapel · Kopfrechnen"
+          }
+        }
+      }
+    },
+    "Starter deck · picture answers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startstapel · Bildantworten"
+          }
+        }
+      }
+    },
+    "Stone Skin" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steinhaut"
+          }
+        }
+      }
+    },
+    "Strength Potion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stärketrank"
+          }
+        }
+      }
+    },
+    "Sunder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zertrümmern"
+          }
+        }
+      }
+    },
+    "Switzerland" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schweiz"
+          }
+        }
+      }
+    },
+    "Sword" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schwert"
+          }
+        }
+      }
+    },
+    "Sydney" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sydney"
+          }
+        }
+      }
+    },
+    "São Paulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "São Paulo"
+          }
+        }
+      }
+    },
+    "Target Lock" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zielerfassung"
+          }
+        }
+      }
+    },
+    "Teal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petrol"
+          }
+        }
+      }
+    },
+    "Terrifying Roar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schreckensbrüllen"
+          }
+        }
+      }
+    },
+    "The Old Kingdom" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Alte Königreich"
+          }
+        }
+      }
+    },
+    "Tokyo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tokio"
+          }
+        }
+      }
+    },
+    "Toronto" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toronto"
+          }
+        }
+      }
+    },
+    "Troll Hide" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trollhaut"
+          }
+        }
+      }
+    },
+    "Turkey" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Türkei"
+          }
+        }
+      }
+    },
+    "Vancouver" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vancouver"
+          }
+        }
+      }
+    },
+    "Vigor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebenskraft"
+          }
+        }
+      }
+    },
+    "Violet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Violett"
+          }
+        }
+      }
+    },
+    "Warrior" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krieger"
+          }
+        }
+      }
+    },
+    "Water" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wasser"
+          }
+        }
+      }
+    },
+    "Wellington" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wellington"
+          }
+        }
+      }
+    },
+    "Wellington sits at the southern tip of the North Island; Auckland is far bigger." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wellington liegt an der Südspitze der Nordinsel; Auckland ist viel größer."
+          }
+        }
+      }
+    },
+    "What does this sign show?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was zeigt dieses Zeichen?"
+          }
+        }
+      }
+    },
+    "Whetstone" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wetzstein"
+          }
+        }
+      }
+    },
+    "Which color is this?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welche Farbe ist das?"
+          }
+        }
+      }
+    },
+    "Wizard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magier"
+          }
+        }
+      }
+    },
+    "Wolf" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wolf"
+          }
+        }
+      }
+    },
+    "World Capitals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauptstädte der Welt"
+          }
+        }
+      }
+    },
+    "Zurich" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zürich"
+          }
+        }
+      }
+    }
+  }
+}
